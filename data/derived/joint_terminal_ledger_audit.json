@@ -1,0 +1,45 @@
+{
+  "paper": "VII",
+  "roles": [
+    "body",
+    "geometry",
+    "gauge",
+    "classical_matter",
+    "quantum",
+    "observer",
+    "unit"
+  ],
+  "role_count": 7,
+  "deletion_controls": {
+    "body": "no stabilized morphology or conditioning",
+    "geometry": "no metric, curvature or Einstein terminal",
+    "gauge": "no Maxwell curvature, charge transport or photon terminal",
+    "classical_matter": "no occupied classical stress/current",
+    "quantum": "no state/effect terminal or quantum backreaction",
+    "observer": "no operational restriction or clock access",
+    "unit": "no common absolute calibration"
+  },
+  "occupation_partition_is_single_valued": true,
+  "duplicated_mode_stress_factor": 2,
+  "ordered_response": [
+    [
+      "H_B^-1",
+      "0"
+    ],
+    [
+      "-H_P^-1 C H_B^-1",
+      "H_P^-1"
+    ]
+  ],
+  "simultaneous_action_no_go": "zero body response to every post-body load forces C=0",
+  "standard_leaf": [
+    "Einstein",
+    "Poisson",
+    "Maxwell",
+    "Ward",
+    "Bianchi"
+  ],
+  "nature_selection": "open",
+  "quantized_geometry": false,
+  "verdict": "CONDITIONAL_COMMON_SOURCE_ASSEMBLY_WITH_EXACT_DOUBLE_COUNT_CONTROLS"
+}
