@@ -22,11 +22,14 @@ We ask whether the already constructed Tau gravity, temporal, quantum,
 matter-occupation and Abelian gauge terminals can belong to one physical
 descent rather than to independently fitted sector models.  The inherited
 results do not yet prove that Nature selects such a descent.  They do,
-however, permit a finite conditional assembly.  We define one ordered source
-ledger: the morphological body is solved and frozen first; geometry, occupied
-gauge and matter sectors are then varied on that body; observer restriction is
-applied last.  A disjoint occupation ledger assigns every physical mode to
-exactly one classical or quantum stress export.  Under diffeomorphism and
+however, permit a finite conditional construction.  We identify the joint
+post-body object with one renormalized in-in effective functional on each
+stationary body fiber.  Its source, metric, gauge and clock-character
+derivatives generate probabilities, stress, current and clock response,
+respectively.  Green operators are inverse Hessians rather than additional
+action terms, and finite local counterterms have one ledger entry even when
+their placement convention is changed.  A disjoint occupation ledger assigns
+every physical mode to exactly one classical or quantum stress export.  Under diffeomorphism and
 $U(1)$ gauge invariance, stationarity gives the semiclassical
 Einstein--Maxwell--matter equations and their Ward identities.  Their weak
 field limit is the Poisson equation sourced by the same once-counted total
@@ -50,8 +53,9 @@ leaf; Paper VI the conditional quantum terminal.  The theory hub supplies the
 P1 gravity--time--radiation ordered ledger and the P3 Abelian handoff.
 
 \textbf{Results owned here.} The joint terminal ledger, the disjoint
-occupation rule, the Ward/Bianchi consistency theorem, the simultaneous-action
-and duplicate-stress no-go results, and the equal-terminal provenance no-go.
+occupation rule, the effective-source derivative ledger, the Ward/Bianchi
+consistency theorem, the simultaneous-action and duplicate-stress no-go
+results, and the same-reduct Nature-selection no-go.
 \end{minipage}}
 \end{center}
 
@@ -122,6 +126,68 @@ Each occupied mode and each counterterm appears in exactly one summand.
 Observer restriction is evaluated after stationarity and is not varied back
 against $y_*$.  The unit packet $\mathcal U$ is shared by every summand.
 \end{definition}
+
+\section{One effective source on each stationary body fiber}
+
+The symbol $\Gamma_7$ need not be postulated as five unrelated pieces.  Let
+$\varphi$ collect the occupied quantum fields, let $\eta_a$ couple to
+normalized observer effects, and let $\vartheta$ denote the occupied clock
+character.  On the already selected stationary body $y_*$ define the
+closed-time-path effective functional
+\begin{equation}
+\exp\!\left({i\over\hbar}W_O[g,A,\vartheta,\eta\mid y_*]\right)
+=\int_{\mathcal C_O}\!\mathcal D\varphi\,
+\exp\!\left[{i\over\hbar}
+\Gamma_{\rm PC}[y_*;g,A,\vartheta,\eta,\varphi]\right].
+\label{eq:ineffective}
+\end{equation}
+The in-in contour is required for real causal expectation values.  It is a
+terminal representation of an atemporal ordered functional fibration, not a
+parent-time history.  Renormalization gives one $W_O^{\rm ren}$ whose
+derivatives define
+\begin{align}
+p_a&={\delta W_O\over\delta\eta_a}\bigg|_{\eta=0},
+&\langle T^q_{\mu\nu}\rangle_{\rm ren}
+&=-{2\over\sqrt{-g}}{\delta W_O^{\rm ren}\over\delta g^{\mu\nu}},
+\label{eq:sourceowners1}\\
+\langle J_q^\mu\rangle_{\rm ren}
+&={1\over\sqrt{-g}}{\delta W_O^{\rm ren}\over\delta A_\mu},
+&E_O&={\delta W_O^{\rm ren}\over\delta\vartheta}.
+\label{eq:sourceowners2}
+\end{align}
+The final expression is schematic until the clock character and its
+normalization are fixed, but its ownership is unambiguous.
+
+\begin{theorem}[Effective common-source construction]
+\label{thm:effectivesource}
+Assume the ordered pre-body solve, a source-owned probe-complete post-body
+functional $\Gamma_{\rm PC}$, an observer-admissible integration class
+$\mathcal C_O$, and a local covariant renormalization prescription.  Then
+Eqs.~\eqref{eq:ineffective}--\eqref{eq:sourceowners2}, together with the
+classical body and coherent mean-field terms, construct the Paper-VII
+$\Gamma_7$ ledger from one post-body source functional.  The construction is
+unique at the level of physical roles, modulo relocation of a finite local
+counterterm between the geometric and quantum bookkeeping columns while
+holding their sum fixed.
+\end{theorem}
+\begin{proof}
+Functional differentiation of one $W_O^{\rm ren}$ gives the four displayed
+terminal owners.  Diffeomorphism and gauge invariance give their common Ward
+covector.  The fluctuation Green operator is the inverse of the corresponding
+gauge-fixed Hessian and therefore computes response; inserting it again as an
+action summand would duplicate the fluctuation contribution.  A finite local
+counterterm can be written in either the geometric or renormalized quantum
+column, but linearity of variation shows that only the sum affects the field
+equations.  Including the same term in both columns doubles its variation.
+Thus the role ledger is fixed, while its harmless counterterm placement
+convention is not.
+\end{proof}
+
+\paragraph{Scope.}
+Theorem~\ref{thm:effectivesource} is a construction theorem inside the
+selected ordered completion.  It does not show that the physical base--seed
+law selects $\Gamma_{\rm PC}$, $\mathcal C_O$, its field spectrum or its
+renormalized continuum measure.
 
 The ordering is structural. If $H_B,H_P>0$ and the post-body equations have
 body derivative $C$, the linear response is lower triangular:
@@ -312,6 +378,30 @@ This no-go fixes the empirical interpretation: terminal data may test a
 source-frozen forward ledger, but may not choose its source partition,
 susceptibilities or unit map.
 
+\begin{proposition}[Same-reduct selection no-go]
+\label{prop:samereduct}
+The currently frozen stationary body, common action line, observer quotient
+and terminal type signatures do not entail physical occupation of the full
+effective-source packet of Theorem~\ref{thm:effectivesource}.
+\end{proposition}
+\begin{proof}
+Hold fixed the body $y_*$, its Hessian, common units, causal orientation and
+observer quotient.  Completion $C_0$ assigns zero occupation to one admissible
+post-body record/field edge.  Completion $C_1$ assigns a nonzero positive
+occupation to that same typed edge and includes its contribution in
+$\Gamma_{\rm PC}$.  Both have the same frozen upstream reduct and satisfy its
+positivity and typing conditions, but only $C_1$ realizes the corresponding
+probability, stress and current derivatives in
+Eqs.~\eqref{eq:sourceowners1}--\eqref{eq:sourceowners2}.  Hence the upstream
+reduct does not select the full packet.  Additional source-owned occupation
+or an empirically discriminating source-frozen prediction is required.
+\end{proof}
+
+This finite counterpair is the stopping result for the origin question at the
+present source level.  It forbids both a Nature-level promotion of
+Theorem~\ref{thm:effectivesource} and another same-level search for a hidden
+normalization.  It does not weaken the conditional forward construction.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.92\textwidth]{figures/fig_joint_ledger.pdf}
@@ -343,6 +433,13 @@ Question & Verdict & Status\\
 One simultaneous body/post-body Hessian supplies conditioning and freeze &
 Impossible unless the cross derivative vanishes & Exact no-go\\
 One ordered ledger supplies both & Yes, Eq.~\eqref{eq:triangular} & Conditional theorem\\
+One post-body effective functional generates probability, stress, current
+and clock response & Yes, Eqs.~\eqref{eq:ineffective}--\eqref{eq:sourceowners2}
+& Conditional theorem\\
+Green response is an additional action contribution & No; it is an inverse
+Hessian & Exact bookkeeping result\\
+Finite local counterterms may be included in two columns & No; relocation is
+allowed, duplication is not & Exact bookkeeping result\\
 Classical and quantum occupation may overlap silently & No; stress doubles & Exact no-go\\
 Einstein, Maxwell and Ward equations share one post-body variation & Yes under the declared packet & Conditional theorem\\
 Newton/Maxwell limits follow & Yes on the standard weak leaf & Conditional recovery\\
@@ -351,25 +448,28 @@ Geometry is quantized & Not derived & Open\\
 Hamilton, momentum and Gauss constraints follow & Yes, on the selected
 standard leaf & Conditional recovery\\
 Non-Abelian gauge and Standard Model spectrum follow & Not derived & Open\\
-Physical base--seed source selects $\mathfrak L_7$ & Not proved & Primary blocker\\
+Physical base--seed source selects $\mathfrak L_7$ & Not entailed by the
+current reduct, Proposition~\ref{prop:samereduct} & Exact current-reduct no-go\\
 \bottomrule
 \end{longtable}
 
 \section{Conclusion}
 
 Paper VII closes a specific assembly problem. The inherited primitive
-terminals can be placed in one ordered, once-counted functional without
+terminals can be placed in one ordered, once-counted effective functional without
 rebuilding the morphology from downstream loads. Diffeomorphism and Abelian
 gauge invariance then make gravity, current and stress conservation one
 consistent variational packet, while the disjoint occupation rule prevents a
 classical/quantum duplicate source. The Newtonian and Maxwell limits are
 recovered from that same packet.
 
-The result remains conditional. Present Tau source laws do not yet prove that
-Nature occupies the ledger, fix its absolute constants, quantize the metric or
-select the non-Abelian and particle-spectrum completion. Those are the next
-finite source questions; they cannot be repaired by fitting composite
-lensing, galaxy or cosmological residuals.
+The construction remains conditional, but its remaining source status is no
+longer an unspecified proof gap.  An explicit same-reduct counterpair proves
+that present Tau source laws do not entail occupation of the complete ledger.
+Progress therefore requires a richer independently motivated source law or a
+source-frozen cross-terminal prediction.  Terminal fitting cannot supply the
+missing selection.  Absolute constants, quantized geometry, non-Abelian
+structure and the particle spectrum remain outside the present result.
 
 \bibliographystyle{unsrtnat}
 \bibliography{refs}

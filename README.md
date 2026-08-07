@@ -12,7 +12,12 @@ one stationary post-body functional yields the semiclassical
 Einstein--Maxwell--matter equations, the Ward identities and the Newtonian and
 Maxwell limits without terminal-specific gains.
 
-The new result is an assembly and non-double-counting theorem. It does not
+The new result is an assembly and non-double-counting theorem. One
+renormalized in-in effective functional conditionally generates probability,
+stress, current and clock response on each frozen-body fiber. Green operators
+remain inverse Hessians rather than action summands, and local counterterms
+have one ownership entry. An explicit same-reduct counterpair proves that the
+current upstream reduct does not select occupation of the full packet. It does not
 prove that the physical Tau base--seed system selects the ledger.
 
 ## Does not claim
@@ -30,7 +35,7 @@ prove that the physical Tau base--seed system selects the ledger.
 | Atemporal body and observer descent | Paper I | body-first architecture |
 | Finite source and incidence typing | Paper II | typed occupied source support |
 | Recovery-correctable record transport | Paper III | correctable observer terminal |
-| Physical parent-selection boundary | Paper IV | Nature-selection remains open |
+| Physical parent-selection boundary | Paper IV | Nature-selection is not entailed by the current reduct |
 | Temporal descent and clock calibration | Paper V | observer clock and causal leaf |
 | Conditional quantum terminal | Paper VI | state/effect packet and renormalized quantum sector |
 | `P1-ASSEMBLY-C1`, `P1-ORDLEDGER-C1` | theory hub | gravity/time/radiation descriptor and ordered ledger |
