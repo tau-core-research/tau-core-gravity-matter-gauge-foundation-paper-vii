@@ -35,8 +35,8 @@
   "effective_source_owners": {
     "effect_source_eta": "Born probability",
     "metric_g": "renormalized stress",
-    "gauge_potential_A": "renormalized current",
-    "clock_character_vartheta": "clock/energy response"
+    "gauge_potential_A": "renormalized current_with_Maxwell_minus_sign",
+    "clock_character_vartheta": "clock response"
   },
   "bookkeeping": {
     "green_operator": "inverse_hessian_not_action_summand",
@@ -47,12 +47,158 @@
       "stationary_body",
       "body_hessian",
       "common_units",
-      "observer_quotient"
+      "observer_quotient",
+      "physical_state",
+      "unprobed_action"
     ],
-    "completion_C0": "zero_edge_occupation",
-    "completion_C1": "positive_edge_occupation",
+    "completion_C0": "zero_effect_source_coupling",
+    "completion_C1": "nonzero_effect_source_coupling",
     "target_differs": true
   },
+  "morphology_conditioned_assembly": {
+    "source_is_direct_sum": false,
+    "role_codomain": [
+      "time",
+      "gravity",
+      "radiation",
+      "matter",
+      "quantum",
+      "abelian_gauge"
+    ],
+    "terminal_maps_may_overlap_on_source": true,
+    "shared_source_representative": true,
+    "typed_projection_after_body_conditioning": true,
+    "observer_resolution_is_explicit": true,
+    "terminal_specific_gain": false,
+    "full_occupation_criterion": "source_cyclicity_plus_role_surjectivity",
+    "nonzero_activation_criterion": "rooted_positive_propagation",
+    "rooted_positive_propagation_implies_full_rank": false,
+    "rooted_path_support_is_occupied": true,
+    "nature_selects_representation": false,
+    "nature_selects_operation_algebra": false
+  },
+  "quantum_gravity_common_preparation": {
+    "screen_weight_gap": 2,
+    "single_ray_own_screen_stf_overlap": 0,
+    "root_one_particle_reduced_state": "rho_ROOT=C/Tr(C)",
+    "tt_stress": "N_O*K_mn*(rho_ROOT)_mn",
+    "same_preparation_identity": true,
+    "occupation_weight_required": true,
+    "independent_cross_gain": false,
+    "overlap_is_action_derived_then_source_frozen": true,
+    "overlap_has_action_derived_mode_formula": true,
+    "finite_activation_certificate": [
+      "screen_invariant_occupied_projector",
+      "screen_weight_gap_two",
+      "nonzero_relative_coherence",
+      "nonzero_stf_overlap"
+    ],
+    "certificate_is_necessary_and_sufficient_in_declared_sector": true,
+    "nonzero_overlap_class_has_geometric_optics_witness": true,
+    "source_loaded_coherence_requires_negative_transverse_mass": false,
+    "source_loaded_mixer": {
+      "owned_by_metric_variation": true,
+      "independent_terminal_gain": false,
+      "nonzero_iff_geometric_pullback_and_stress_overlap_nonzero": true
+    },
+    "faraday_directional_selector": {
+      "non_null_field_required": true,
+      "principal_null_pair_is_canonical": true,
+      "generic_nonprincipal_observer_activation": true,
+      "principal_observer_is_zero_control": true,
+      "null_field_is_zero_control": true,
+      "parent_selects_non_null_abelian_branch": false
+    },
+    "nature_selects_noncollinear_pair": false,
+    "faithful_common_completion": {
+      "deduplicated_recovery_surjective": "conditional",
+      "faithful_state_follows": true,
+      "abelian_central_support_positive": true,
+      "cyclic_gns_faithful_and_unique_up_to_unitary": true,
+      "same_qft_state_restriction": true,
+      "faithful_support_implies_pointwise_non_null_faraday": false,
+      "physical_parent_selects_surjective_branch": false,
+      "recovery_factorization": "R_rec_lin=U_rec*D_Sigma*J_phys_lin",
+      "stable_and_differentially_complete_iff_j_phys_lin_isomorphism": true,
+      "rolewise_activation_implies_global_surjectivity": false,
+      "occupied_p3_subrepresentation_implies_global_surjectivity": false,
+      "observer_source_complement_rank_adds": true,
+      "pbse_observer_source_rank_increment": 1,
+      "pbse_increment_closes_full_linear_cokernel": false,
+      "full_typed_recovery_also_requires": [
+        "finite_record_support_coverage",
+        "faithful_algebra_representation"
+      ],
+      "deduplicated_linear_rank": "4+r_Q_perp",
+      "root_complement_rank_range": [
+        0,
+        4
+      ],
+      "equal_marginal_controls": [
+        0,
+        2,
+        4
+      ],
+      "invertible_gauge_adds_recovery_rank": false,
+      "mixed_gram_selects_root_complement": true,
+      "pbse_increment_is_added_again_to_broad_p1_rank": false,
+      "seed_presentation_selector": {
+        "selects_common_hessian_p1_access": true,
+        "isolated_occupied_root_cluster_selects_projector": true,
+        "faithful_root_restriction_required": true,
+        "adds_terminal_gain": false,
+        "current_seed_grammar_is_complete": false,
+        "physical_root_spectral_gap_is_proved": false,
+        "parent_law_realization_and_occupation_status": "open"
+      },
+      "p3_clifford_candidate": {
+        "role_dimension": 7,
+        "operator_square_forces_clifford": true,
+        "simple_block_dimensions": [
+          8,
+          8
+        ],
+        "envelope_dimension": 256,
+        "envelope_multiplicities": [
+          16,
+          16
+        ],
+        "normalized_trace_weights": [
+          0.5,
+          0.5
+        ],
+        "trace_gram_alone_is_sufficient": false,
+        "physical_typed_operator_incidence_selected": false,
+        "post_body_handoff_status": "adopted_working_completion"
+      },
+      "finite_rw_operational_witness": {
+        "morphology_tangent_dimension": 8,
+        "source_endpoint_count": 3,
+        "finite_p1_operator_rank": 7,
+        "finite_joint_p1_root_operator_rank": 8,
+        "root_operational_increment": 1,
+        "is_primitive_parent_rank": false,
+        "is_unrestricted_parent_realization": false
+      }
+    },
+    "minimal_activation_potential": {
+      "positive_quartics": true,
+      "negative_transverse_quadratic": true,
+      "nonzero_weight_two_mixer": true,
+      "forces_nonzero_p_and_c": true,
+      "zero_mixer_restores_zero_coherence": true,
+      "physical_coefficient_selection": false
+    }
+  },
+  "quantum_preparation_status": "fixed_positive_trace_one_ctp_boundary_not_euler_variable",
+  "newtonian_limit_retains_lambda": true,
+  "standard_leaf_form_selector": {
+    "einstein_hilbert_shape_from_declared_lovelock_class": true,
+    "maxwell_shape_from_declared_parity_even_quadratic_u1_class": true,
+    "coefficients_selected": false,
+    "parent_selects_class": false
+  },
+  "same_reduct_counterpair_scope": "effect_source_ownership_only",
   "standard_leaf": [
     "Einstein",
     "Poisson",
@@ -60,7 +206,7 @@
     "Ward",
     "Bianchi"
   ],
-  "nature_selection": "not_entailed_by_current_reduct",
+  "parent_law_realization_and_occupation": "not_entailed_by_current_reduct",
   "quantized_geometry": false,
   "verdict": "CONDITIONAL_COMMON_SOURCE_ASSEMBLY_WITH_EXACT_DOUBLE_COUNT_CONTROLS"
 }

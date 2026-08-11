@@ -1,0 +1,72 @@
+\section{Self-contained dependency certificate}
+\label{app:dependencycertificate}
+
+This appendix separates logical premises from provenance.  The conclusions of
+Paper VII use only the following statements.  A reader may treat each imported
+statement as an explicit assumption and verify every theorem in this paper
+without consulting another Tau manuscript.
+
+\begin{description}[style=nextline,leftmargin=2.8em,labelwidth=2.2em]
+\item[\textbf{D1: body-first order.}]
+There is a $C^2$ pre-body action $\mathcal A_{\rm pre}[y;B,s]$ with an occupied
+stationary point $y_*$ and positive physical Hessian $H_B$.  The post-body
+functional is evaluated on the frozen parameter $y_*$; post-body source
+variation is not varied back into the body equation.  This is the only
+body-first premise used in Eqs.~\eqref{eq:jointfunctional} and
+\eqref{eq:triangular}.
+
+\item[\textbf{D2: common typed source domain.}]
+On the selected body and observer support there is one finite source domain
+$\mathcal E_{*,O}$, one access map $A_O$, typed linear role maps
+$R_a:\mathcal E_{*,O}\to\mathcal Y_a$, and stable resolution maps
+$Q_O^{(a)}$.  No direct-sum decomposition of $\mathcal E_{*,O}$ is assumed.
+Proposition~\ref{prop:moprassembly} is proved here from exactly this premise.
+
+\item[\textbf{D3: occupied operation data.}]
+An operation algebra $\mathfrak A_{\rm src}$, occupied vector $\Omega_s$ and
+positive root covariance $X_0$ are given.  Whenever the full-occupation branch
+is used, $\Omega_s$ is cyclic and every required $R_a$ is surjective.
+Whenever the rooted-path branch is used,
+$\operatorname{supp}X_0\subseteq V_s$ and every admitted $L_e$ preserves
+$V_s=\operatorname{span}(\mathfrak A_{\rm src}\Omega_s)$.
+Proposition~\ref{prop:occupation} proves the resulting full-occupation or
+activation statement; physical realization of either premise set is not
+imported.
+
+\item[\textbf{D4: fixed quantum preparation.}]
+The CTP boundary datum satisfies $\rho_{\rm in,O}\geq0$ and
+$\operatorname{Tr}\rho_{\rm in,O}=1$.  It is held fixed while $g$, $A$ and
+$\Phi$ are varied.  The CTP evolution and observer restriction produce a
+normalized output state $\rho_O$.  CTP response is obtained by varying the
+difference source before taking the physical equal-branch limit.  No Euler
+variation with respect to a density matrix is used.
+
+\item[\textbf{D5: standard Lorentzian leaf.}]
+On the selected leaf the geometric and Abelian functionals satisfy the
+classification hypotheses of Proposition~\ref{prop:standardforms}, with a
+common unit packet.  Their Einstein--Hilbert and Maxwell shapes then follow
+inside that class.  The matter functional, measure and renormalization
+prescription are diffeomorphism and $U(1)$ gauge invariant and anomaly-free
+for the Ward identities invoked here.  This is an assumed standard-limit
+leaf, not a Tau derivation of those actions.
+
+\item[\textbf{D6: operational effect source.}]
+Each declared outcome family is a POVM, $E_a\geq0$ and $\sum_aE_a=I$, and its
+source coupling is Eq.~\eqref{eq:effectcoupling}.  This premise, together with
+D4, is sufficient for the normalized Born derivative in
+Eq.~\eqref{eq:sourceowners1}; no stronger quantum reconstruction theorem is
+used.
+
+\item[\textbf{D7: clock-source boundary.}]
+The clock character $\vartheta$ is an admitted external source coordinate of
+the post-body functional.  Paper VII uses only the formal response derivative
+$\delta W_O^{\rm ren}/\delta\vartheta$.  It neither imports nor proves a
+duration law, global clock integrability or a Tau-specific clock distortion.
+
+\item[\textbf{D8: once-counted calibration.}]
+Every displayed sector uses one declared action unit, each occupied
+contribution and counterterm has one ledger owner, and the overlap
+$K_{m,m+2}$ is calculated from Eq.~\eqref{eq:overlapformula} and frozen before
+the ROOT--TT comparison.  This bookkeeping premise forbids an additional
+fitted gain but does not select the common unit, occupied mode pair, screen or
+subtraction prescription.

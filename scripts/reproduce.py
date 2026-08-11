@@ -17,11 +17,13 @@ def main():
     py = sys.executable
     run(py, "scripts/build_figures.py")
     run(py, "scripts/audit_joint_terminal_ledger.py")
-    run("tectonic", "paperVII_submission_source/main.tex")
+    run(py, "scripts/audit_theorem_certificates.py")
+    run("latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error",
+        "-cd", "paperVII_submission_source/main.tex")
     shutil.copy2(ROOT / "paperVII_submission_source" / "main.pdf", ROOT / "paperVII.pdf")
     run(py, "scripts/build_arxiv_source.py")
     run(py, "-m", "pytest", "-q")
-    print("FOUNDATION_PAPER_VII_REPRODUCTION_COMPLETE")
+    print("FOUNDATION_PAPER_VIIA_REPRODUCTION_COMPLETE")
 
 
 if __name__ == "__main__":

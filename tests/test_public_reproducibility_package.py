@@ -7,35 +7,67 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_publication_files_exist():
-    for path in ["README.md", "paperVII.pdf", "arxiv_submission_source.zip",
-                 "paperVII_submission_source/main.tex", "paperVII_submission_source/refs.bib"]:
+    for path in [
+        "README.md",
+        "CITATION.cff",
+        "paperVII.pdf",
+        "arxiv_submission_source.zip",
+        "paperVII_submission_source/main.tex",
+        "paperVII_submission_source/joint_terminal_main.tex",
+        "paperVII_submission_source/dependency_certificate_body.tex",
+        "paperVII_submission_source/refs.bib",
+        "data/derived/joint_terminal_ledger_audit.json",
+        "data/derived/theorem_certificates.json",
+    ]:
         assert (ROOT / path).exists(), path
 
 
-def test_claim_boundaries_and_title():
-    tex = (ROOT / "paperVII_submission_source/main.tex").read_text()
-    assert "Gravity, Matter, and Abelian Gauge Terminals" in tex
-    assert "does not quantize geometry" in tex
-    assert "present Tau source laws do not entail occupation" in tex
-    assert "Duplicate-stress no-go" in tex
-    assert "Effective common-source construction" in tex
-    assert "Same-reduct selection no-go" in tex
+def test_scope_and_claim_boundary():
+    main = (ROOT / "paperVII_submission_source/main.tex").read_text()
+    body = (ROOT / "paperVII_submission_source/joint_terminal_main.tex").read_text()
+    text = main + "\n" + body
+    for marker in [
+        "Foundation Paper VII-A",
+        "Inputs from earlier papers",
+        "Conditional morphology-conditioned representation",
+        "Same-reduct selection no-go",
+        "Conditional ROOT--TT common preparation",
+        "Exact source-rank criterion",
+        "De-duplicated P1--ROOT rank",
+        "Technical-paper handoffs",
+        "does not quantize geometry",
+    ]:
+        assert marker in text
+    assert "Support--port reconstruction and class-minimal enriched-law realization" not in body
+    assert "Type does not imply occupation" not in body
 
 
-def test_audit_ledger():
+def test_joint_terminal_ledger():
     data = json.loads((ROOT / "data/derived/joint_terminal_ledger_audit.json").read_text())
-    assert data["role_count"] == 7
+    assert data["verdict"].startswith("CONDITIONAL_COMMON_SOURCE_ASSEMBLY")
     assert data["duplicated_mode_stress_factor"] == 2
-    assert data["nature_selection"] == "not_entailed_by_current_reduct"
     assert data["quantized_geometry"] is False
-    assert data["effective_source_owners"]["metric_g"] == "renormalized stress"
-    assert data["bookkeeping"]["green_operator"] == "inverse_hessian_not_action_summand"
-    assert data["same_reduct_selection_counterpair"]["target_differs"] is True
+    assembly = data["morphology_conditioned_assembly"]
+    assert assembly["source_is_direct_sum"] is False
+    assert assembly["terminal_maps_may_overlap_on_source"] is True
+    assert assembly["terminal_specific_gain"] is False
+    assert assembly["nature_selects_representation"] is False
 
 
-def test_arxiv_archive_is_source_only():
-    with zipfile.ZipFile(ROOT / "arxiv_submission_source.zip") as zf:
-        names = zf.namelist()
-    assert "main.tex" in names and "refs.bib" in names
-    assert "figures/fig_joint_ledger.pdf" in names
-    assert not any(name.endswith("main.pdf") for name in names)
+def test_joint_terminal_numerical_certificates():
+    data = json.loads((ROOT / "data/derived/theorem_certificates.json").read_text())
+    assert data["verdict"] == "FINITE_THEOREM_WITNESSES_PASS"
+    assert data["schur_witness"]["positive_schur"] is True
+    assert data["root_tt"]["jacobian_rank"] == 2
+    assert data["root_tt"]["certificate_rank"] == 2
+    assert data["same_reduct_counterpair"]["same_physical_state"] is True
+
+
+def test_arxiv_archive_is_self_contained():
+    with zipfile.ZipFile(ROOT / "arxiv_submission_source.zip") as archive:
+        names = set(archive.namelist())
+    assert "main.tex" in names
+    assert "joint_terminal_main.tex" in names
+    assert "dependency_certificate_body.tex" in names
+    assert "refs.bib" in names
+    assert "appendices/p3_technical_derivations.tex" not in names

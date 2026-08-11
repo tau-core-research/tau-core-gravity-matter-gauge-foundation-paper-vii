@@ -10,7 +10,10 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}{Proposition}
 \newtheorem{corollary}{Corollary}
-\title{Gravity, Matter, and Abelian Gauge Terminals\\from One Ordered Tau Descent\\\large Tau Core Foundation Paper VII: First Proof Packet}
+
+\title{Conditional Assembly of Gravity, Matter, and Abelian Gauge Terminals\\
+from One Ordered Tau Descent\\
+\large Tau Core Foundation Paper VII-A}
 \author{Jozsef Olcsak}
 \date{August 2026}
 
@@ -18,459 +21,180 @@
 \maketitle
 
 \begin{abstract}
-We ask whether the already constructed Tau gravity, temporal, quantum,
-matter-occupation and Abelian gauge terminals can belong to one physical
-descent rather than to independently fitted sector models.  The inherited
-results do not yet prove that Nature selects such a descent.  They do,
-however, permit a finite conditional construction.  We identify the joint
-post-body object with one renormalized in-in effective functional on each
-stationary body fiber.  Its source, metric, gauge and clock-character
-derivatives generate probabilities, stress, current and clock response,
-respectively.  Green operators are inverse Hessians rather than additional
-action terms, and finite local counterterms have one ledger entry even when
-their placement convention is changed.  A disjoint occupation ledger assigns
-every physical mode to exactly one classical or quantum stress export.  Under diffeomorphism and
-$U(1)$ gauge invariance, stationarity gives the semiclassical
-Einstein--Maxwell--matter equations and their Ward identities.  Their weak
-field limit is the Poisson equation sourced by the same once-counted total
-energy density, together with the ordinary Maxwell equations.  We prove that
-a simultaneous body/post-body Hessian cannot retain nonzero body conditioning
-and exact no-backreaction, and that duplicate classical/quantum occupation
-necessarily double counts stress.  Conversely, recovering standard terminal
-equations does not identify common Tau provenance: an equal-terminal
-independent-source counterfamily remains.  The result is therefore a
-conditional source-assembly and non-double-counting theorem, not a derivation
-of quantum gravity, the Standard Model, physical constants or Nature-level
-source selection.
+We ask whether the previously constructed Tau gravity, temporal, quantum,
+matter and Abelian gauge terminals can descend from one ordered physical
+source ledger rather than from independently fitted sector models. On a
+stabilized morphological body we construct one once-counted post-body
+effective functional whose effect, metric, gauge and clock-character
+derivatives generate probabilities, stress, current and formal clock
+response. Diffeomorphism and $U(1)$ gauge invariance yield the conditional
+Einstein--Maxwell--matter equations, Ward/Bianchi identities and their
+standard weak-field leaf. A disjoint occupation ledger prevents duplicate
+classical/quantum stress, while exact countermodels show that standard-limit
+agreement does not establish common Tau provenance.
+
+On an occupied two-mode restriction, ROOT one-particle coherence and
+transverse-traceless stress arise from one preparation without an additional
+cross-terminal gain. Differential recovery is reduced to a source-rank
+problem: after de-duplication, the ROOT increment over the common P1 row space
+is fixed by one source-owned mixed Gram. The paper therefore gives a
+conditional common-source assembly and a precise non-identifiability boundary,
+not a first-principles derivation of Einstein--Hilbert or Maxwell action shapes,
+not quantized geometry and not unrestricted physical parent realization. The
+rank-seven P3 packet and scalar-15/RG specialization are now owned by Technical
+Papers VII-B and VII-C respectively.
 \end{abstract}
 
 \begin{center}
-\fbox{\begin{minipage}{0.92\textwidth}\small
-\textbf{Inputs from earlier papers.} Paper I supplies the body-first descent;
-Paper II the typed source support; Paper III recoverable record transport;
-Paper IV the parent-selection boundary; Paper V the observer clock and causal
-leaf; Paper VI the conditional quantum terminal.  The theory hub supplies the
-P1 gravity--time--radiation ordered ledger and the P3 Abelian handoff.
+\fbox{\begin{minipage}{0.92\linewidth}\small
+\textbf{Inputs from earlier papers.} Paper I supplies body-first descent;
+Paper II typed finite support; Paper III recovery-correctable record transport;
+Paper IV the parent-realization boundary; Paper V observer time; Paper VI the
+conditional quantum terminal.
 
-\textbf{Results owned here.} The joint terminal ledger, the disjoint
-occupation rule, the effective-source derivative ledger, the Ward/Bianchi
-consistency theorem, the simultaneous-action and duplicate-stress no-go
-results, and the same-reduct Nature-selection no-go.
+\textbf{Results owned here.} Morphology-conditioned joint-terminal assembly,
+the finite occupation criterion, one effective source, the disjoint stress
+ledger, Ward/Bianchi consistency, standard-form classification inside the
+declared leaf, ROOT--TT common preparation, Abelian directional activation and
+the exact de-duplicated source-rank obstruction.
 \end{minipage}}
 \end{center}
 
-\section{Question and claim boundary}
-
-Let $M_\tau$ be the stabilized atemporal morphological body. Paper VII asks:
-\begin{equation}
-\boxed{\text{Can gravity, matter, gauge/radiation and quantum backreaction}
-\atop\text{descend from one once-counted ordered physical source ledger?}}
-\end{equation}
-The word \emph{one} denotes common provenance and calibration. It does not
-mean one emitter, one scalar varied at every generative stage, or one terminal
-observable. The generative order remains
-\begin{equation}
-B_\tau^{\rm phys}+s_U\longrightarrow M_\tau
-\longrightarrow \mathfrak L_7
-\longrightarrow \operatorname{Desc}_O
-\longrightarrow \{g,A,\Phi,\rho_O\}.
-\end{equation}
-No terminal residual may select $M_\tau$ or the ledger.
-
-\section{Inherited-results ledger}
-
-\begin{table}[ht]
-\centering\small
-\begin{tabularx}{\textwidth}{@{}p{0.20\textwidth}p{0.19\textwidth}Xp{0.18\textwidth}@{}}
-\toprule
-Result & Owner & Status and assumptions & Use here\\
-\midrule
-Body-first descent & Paper I & conditional physical MVP & generative order\\
-Typed incidence & Paper II & finite source theorem & occupied domains\\
-Record recovery & Paper III & exact/approximate conditional theorem & observer terminal\\
-Parent selection & Paper IV & present reduct does not select full packet & claim boundary\\
-Temporal descent & Paper V & conditional clock/causal leaf & time and weak limit\\
-Quantum terminal & Paper VI & conditional complex/effect/QFT packet & $\Gamma_q$ and $\rho_O$\\
-P1 assembly & theory hub & conditional metric/time/radiation ledger & $g$, null radiation, stress\\
-P3 Abel handoff & theory hub & conditional $Z_F=p_*K_Y$ & Maxwell/current sector\\
-\bottomrule
-\end{tabularx}
-\caption{Dependency and ownership ledger. No inherited conditional result is
-promoted to a Nature theorem.}
-\end{table}
-
-\section{The ordered Paper-VII ledger}
-
-Let $y$ denote body coordinates, and write $z=(g,A,\Phi,\rho)$ for post-body
-geometry, Abelian gauge, occupied classical matter and quantum-state data.
-
-\begin{definition}[Once-counted ordered ledger]
-The Paper-VII ledger is
-\begin{equation}
-\mathfrak L_7=\left(
-\mathcal A_{\rm pre}[y;B,s],\ y_*,\
-\Gamma_7[g,A,\Phi,\rho\mid y_*],\
-\operatorname{Desc}_{O\leftarrow y_*},\ \mathcal U
-\right),
-\end{equation}
-where $D_y\mathcal A_{\rm pre}(y_*)=0$, the physical body Hessian is positive,
-and
-\begin{equation}
-\Gamma_7=\Gamma_{\rm grav}[g\mid y_*]
-+\Gamma_{\rm EM}[A,g\mid y_*]
-+\Gamma_{\rm occ}[\Phi,A,g\mid y_*]
-+\Gamma_q[\rho,A,g\mid y_*]+\Gamma_{\rm ct}[A,g].
-\label{eq:jointfunctional}
-\end{equation}
-Each occupied mode and each counterterm appears in exactly one summand.
-Observer restriction is evaluated after stationarity and is not varied back
-against $y_*$.  The unit packet $\mathcal U$ is shared by every summand.
-\end{definition}
-
-\section{One effective source on each stationary body fiber}
-
-The symbol $\Gamma_7$ need not be postulated as five unrelated pieces.  Let
-$\varphi$ collect the occupied quantum fields, let $\eta_a$ couple to
-normalized observer effects, and let $\vartheta$ denote the occupied clock
-character.  On the already selected stationary body $y_*$ define the
-closed-time-path effective functional
-\begin{equation}
-\exp\!\left({i\over\hbar}W_O[g,A,\vartheta,\eta\mid y_*]\right)
-=\int_{\mathcal C_O}\!\mathcal D\varphi\,
-\exp\!\left[{i\over\hbar}
-\Gamma_{\rm PC}[y_*;g,A,\vartheta,\eta,\varphi]\right].
-\label{eq:ineffective}
-\end{equation}
-The in-in contour is required for real causal expectation values.  It is a
-terminal representation of an atemporal ordered functional fibration, not a
-parent-time history.  Renormalization gives one $W_O^{\rm ren}$ whose
-derivatives define
-\begin{align}
-p_a&={\delta W_O\over\delta\eta_a}\bigg|_{\eta=0},
-&\langle T^q_{\mu\nu}\rangle_{\rm ren}
-&=-{2\over\sqrt{-g}}{\delta W_O^{\rm ren}\over\delta g^{\mu\nu}},
-\label{eq:sourceowners1}\\
-\langle J_q^\mu\rangle_{\rm ren}
-&={1\over\sqrt{-g}}{\delta W_O^{\rm ren}\over\delta A_\mu},
-&E_O&={\delta W_O^{\rm ren}\over\delta\vartheta}.
-\label{eq:sourceowners2}
-\end{align}
-The final expression is schematic until the clock character and its
-normalization are fixed, but its ownership is unambiguous.
-
-\begin{theorem}[Effective common-source construction]
-\label{thm:effectivesource}
-Assume the ordered pre-body solve, a source-owned probe-complete post-body
-functional $\Gamma_{\rm PC}$, an observer-admissible integration class
-$\mathcal C_O$, and a local covariant renormalization prescription.  Then
-Eqs.~\eqref{eq:ineffective}--\eqref{eq:sourceowners2}, together with the
-classical body and coherent mean-field terms, construct the Paper-VII
-$\Gamma_7$ ledger from one post-body source functional.  The construction is
-unique at the level of physical roles, modulo relocation of a finite local
-counterterm between the geometric and quantum bookkeeping columns while
-holding their sum fixed.
-\end{theorem}
-\begin{proof}
-Functional differentiation of one $W_O^{\rm ren}$ gives the four displayed
-terminal owners.  Diffeomorphism and gauge invariance give their common Ward
-covector.  The fluctuation Green operator is the inverse of the corresponding
-gauge-fixed Hessian and therefore computes response; inserting it again as an
-action summand would duplicate the fluctuation contribution.  A finite local
-counterterm can be written in either the geometric or renormalized quantum
-column, but linearity of variation shows that only the sum affects the field
-equations.  Including the same term in both columns doubles its variation.
-Thus the role ledger is fixed, while its harmless counterterm placement
-convention is not.
-\end{proof}
-
-\paragraph{Scope.}
-Theorem~\ref{thm:effectivesource} is a construction theorem inside the
-selected ordered completion.  It does not show that the physical base--seed
-law selects $\Gamma_{\rm PC}$, $\mathcal C_O$, its field spectrum or its
-renormalized continuum measure.
-
-The ordering is structural. If $H_B,H_P>0$ and the post-body equations have
-body derivative $C$, the linear response is lower triangular:
-\begin{equation}
-\begin{pmatrix}\delta y\\\delta z\end{pmatrix}
-=\begin{pmatrix}H_B^{-1}&0\\-H_P^{-1}CH_B^{-1}&H_P^{-1}\end{pmatrix}
-\begin{pmatrix}\delta j_B\\\delta j_P\end{pmatrix}.
-\label{eq:triangular}
-\end{equation}
-Thus morphology conditions the physical terminals, while a later terminal
-load does not rebuild the body.
-
-\begin{proposition}[Simultaneous-action no-go]
-For an invertible positive simultaneous Hessian
-\begin{equation}
-\mathbb H=\begin{pmatrix}H_B&C^\dagger\\C&H_P\end{pmatrix},
-\end{equation}
-exact vanishing of body response to every pure post-body load implies $C=0$.
-Hence nonzero body conditioning and exact body freeze cannot both be encoded
-by one simultaneous unconstrained Hessian solve.
-\end{proposition}
-\begin{proof}
-Schur inversion gives
-$\delta y=-H_B^{-1}C^\dagger
-(H_P-CH_B^{-1}C^\dagger)^{-1}\delta j_P$.
-If this vanishes for every $\delta j_P$, invertibility forces $C=0$.
-\end{proof}
-
-\section{Disjoint occupation and stress ownership}
-
-Let the occupied mode labels form a disjoint union
-\begin{equation}
-\mathcal I_{\rm occ}=\mathcal I_{\rm cl}\sqcup\mathcal I_q.
-\label{eq:partition}
-\end{equation}
-Classical coherent modes represented in $\Gamma_{\rm occ}$ are excluded from
-the state-dependent part of $\Gamma_q$; vacuum polarization and local
-renormalization terms occur only in $\Gamma_q+\Gamma_{\rm ct}$.
-This disjoint partition is a sufficient transparent ledger, not the only
-possible field-theoretic organization. A background-field, one-particle-
-irreducible or two-particle-irreducible construction is also admissible when
-its mean field, fluctuation determinant and counterterms are derived from one
-effective action and no full contribution is inserted twice.
-
-\begin{proposition}[Duplicate-stress no-go]
-If one nonzero occupied mode $i$ is included in both $\mathcal I_{\rm cl}$ and
-$\mathcal I_q$ with the same metric variation, its stress contribution is
-counted twice. No terminal redefinition removes this without changing the
-metric equation or adding a compensating subtraction.
-\end{proposition}
-\begin{proof}
-Metric variation is linear. The duplicated summands give
-$-2(\sqrt{-g})^{-1}\delta(\Gamma_i+\Gamma_i)/\delta g^{\mu\nu}
-=2T^{(i)}_{\mu\nu}$. A subtraction merely moves the ownership entry and must
-therefore be recorded explicitly in $\Gamma_{\rm ct}$.
-\end{proof}
-
-\section{Joint terminal theorem}
-
-Assume on the selected Lorentzian leaf
-\begin{align}
-\Gamma_{\rm grav}&={1\over2\kappa}\int d^4x\sqrt{-g}(R-2\Lambda),\\
-\Gamma_{\rm EM}&=-{Z_F\over4}\int d^4x\sqrt{-g}\,F_{\mu\nu}F^{\mu\nu},
-\qquad Z_F=p_*K_Y,
-\end{align}
-and let the matter and renormalized quantum functionals be diffeomorphism and
-$U(1)$ gauge invariant. These are standard-limit forms inherited
-conditionally; Paper VII does not derive their Nature-level selection.
-
-\begin{theorem}[Common-descent Einstein--Maxwell--matter assembly]
-\label{thm:assembly}
-Under the ordered ledger, disjoint occupation rule, common unit packet and the
-stated invariances, stationarity of Eq.~\eqref{eq:jointfunctional} gives
-\begin{align}
-G_{\mu\nu}+\Lambda g_{\mu\nu}
-&=\kappa\left(T^{\rm EM}_{\mu\nu}+T^{\rm cl}_{\mu\nu}
-+\langle T^q_{\mu\nu}\rangle_{\rm ren}\right),
-\label{eq:einstein}\\
-\nabla_\mu(Z_FF^{\mu\nu})
-&=J_{\rm cl}^{\nu}+\langle J_q^\nu\rangle_{\rm ren}.
-\label{eq:maxwell}
-\end{align}
-On the matter and gauge equations, the Ward identities and Bianchi identity
-imply
-\begin{equation}
-\nabla^\mu T^{\rm tot}_{\mu\nu}=0,
-\qquad
-\nabla_\mu J_{\rm tot}^{\mu}=0.
-\label{eq:ward}
-\end{equation}
-No additional gravity, gauge or quantum-backreaction gain is introduced at the
-terminal stage.
-\end{theorem}
-\begin{proof}
-Equations \eqref{eq:einstein} and \eqref{eq:maxwell} are the metric and gauge
-Euler equations of the single post-body functional. Gauge invariance gives
-current conservation. Diffeomorphism invariance gives the combined stress
-Ward identity, including the Lorentz-force exchange between matter and gauge
-sectors. The divergence of the left side of Eq.~\eqref{eq:einstein} vanishes
-identically, so the equations are mutually consistent. Disjoint occupation
-and the unique counterterm ledger ensure that each contribution is varied
-once.
-\end{proof}
-
-\begin{corollary}[Standard weak-field leaf]
-For $g_{00}=-(1+2\Phi_N/c^2)$, stationary weak fields and nonrelativistic
-sources, Eq.~\eqref{eq:einstein} reduces to
-\begin{equation}
-\nabla^2\Phi_N=4\pi G\rho_{\rm tot},
-\end{equation}
-where $\rho_{\rm tot}$ is the same once-counted density appearing in the
-ledger. Equation \eqref{eq:maxwell} reduces to the ordinary Maxwell equations
-after the inherited field normalization. This is standard recovery, not a
-Tau-specific deviation.
-\end{corollary}
-
-\section{Local constraint structure}
-
-The covariant equations must reproduce constraints, not only evolution
-equations. Let $n^\mu$ be the unit normal to an observer-compatible spacelike
-leaf, $h_{\mu\nu}=g_{\mu\nu}+n_\mu n_\nu$ its induced metric, and $K_{ij}$ its
-extrinsic curvature. With
-$\rho=n^\mu n^\nu T^{\rm tot}_{\mu\nu}$ and
-$j_i=-h_i{}^\mu n^\nu T^{\rm tot}_{\mu\nu}$, the normal projections of
-Eq.~\eqref{eq:einstein} give, in the stated sign convention,
-\begin{align}
-{}^{(3)}R+K^2-K_{ij}K^{ij}&=2\kappa\rho+2\Lambda,
-\label{eq:hamconstraint}\\
-D_j(K^{ij}-h^{ij}K)&=\kappa j^i.
-\label{eq:momconstraint}
-\end{align}
-The normal projection of Eq.~\eqref{eq:maxwell} gives the Abelian Gauss
-constraint
-\begin{equation}
-D_i(Z_FE^i)=\rho_J.
-\label{eq:gaussconstraint}
-\end{equation}
-The Ward identities propagate these constraints when the classical and
-quantum matter equations hold. Paper VII therefore imports the standard local
-constraint architecture from the one joint functional; it does not derive a
-new constraint algebra or quantize it.
-
-\section{Primitive terminal inventory}
-
-The assembled packet contains several typed outputs, not several names for
-the same information:
 \begin{center}
-\small
-\begin{tabularx}{0.96\textwidth}{@{}p{0.20\textwidth}Xp{0.25\textwidth}@{}}
+\fbox{\begin{minipage}{0.92\linewidth}\small
+\textbf{Claim boundary.} The Einstein--Hilbert and Maxwell action shapes are
+inputs of the declared standard Lorentzian leaf and are not derived from the
+narrow Tau parent. The results below are conditional assembly theorems. They
+do not prove that the unrestricted physical base--seed law realizes or
+occupies the common packet, quantize the metric, derive non-Abelian gauge
+occupation or reproduce the Standard-Model spectrum.
+\end{minipage}}
+\end{center}
+
+\section*{Notation and packet map}
+\begin{center}\small
+\begin{tabularx}{0.94\linewidth}{@{}p{0.19\linewidth}X@{}}
 \toprule
-Family & Primitive terminal content & Derived or composite descendants\\
+Symbol or packet & Role\\
 \midrule
-Geometry/gravity & $g$, connection, curvature and constraints & proper time,
-tidal response, lensing after a null source\\
-Gauge/radiation & $A$, $F$, conserved current, two screen polarizations &
-photon propagation, redshift and optical transport\\
-Matter occupation & occupied localized or propagating solutions $\Phi$ &
-mass, energy, stress and charge records\\
-Quantum operation & $\rho$, effects, instruments and correctable composition &
-Born statistics and renormalized quantum stress/current\\
-Observer access & causal orientation, clock and stable restriction &
-observer-relative terminal classes\\
+$P1$ & Gravity--time--radiation/matter differential packet.\\
+ROOT & Occupied two-mode quantum one-particle descriptor; its normalized shape
+is $\rho_{\rm ROOT}$ and its occupation magnitude is retained separately.\\
+TT & Transverse--traceless metric/stress readout paired with ROOT.\\
+$P3$ & Rank-seven primitive algebra/recovery packet, imported only at the
+handoff from Technical Paper VII-B.\\
+$J_{\rm phys}^{\rm lin}$ & Parent-side physical incidence on the source-frozen
+linear quotient.\\
+$K_*$ & Positive source metric/Hessian on the true-null quotient.\\
 \bottomrule
 \end{tabularx}
 \end{center}
-Stress-energy, current, redshift and lensing are variational or composite
-outputs of these families; they are not silently counted as new primitive
-source directions. Conversely, the symmetric local gravity descriptor cannot
-stand in for internal gauge charge, quantum phase or occupied matter. A global
-information-completeness claim must wait for the non-Abelian and fermionic
-known-terminal completions.
 
-\section{Why the standard limit does not prove common provenance}
+\section{Question and reading order}
 
-\begin{proposition}[Equal-terminal provenance no-go]
-The equations \eqref{eq:einstein}--\eqref{eq:ward} do not imply that their
-coefficients or sectors arise from one Tau source.
-\end{proposition}
+The paper owns the conditional arrow
+\[
+M_\tau\longrightarrow\text{one post-body source ledger}
+\longrightarrow\{g,A,\Phi,\rho_O,\text{formal clock response}\}.
+\]
+It does not use terminal residuals to select $M_\tau$ and does not construct
+the body from a readout. The proof order is source ownership, variational
+derivatives, standard-limit controls, ROOT--TT common preparation and finally
+source-rank non-identifiability.
+
+\tableofcontents
+\clearpage
+
+\input{joint_terminal_main}
+
+\section{Technical-paper handoffs}
+
+Technical Paper VII-B proves, inside its declared finite completion class, the
+rank-seven support--port reconstruction, Tau-local subsystem composition,
+pointed exterior carrier, operator-square selector and class-minimal enriched
+P3 realization. Technical Paper VII-C separately owns the scalar-15/type-II
+source preimage, occupation no-go and conditional activation, common-scale
+ratio and exact functional-RG evaluation boundary. Neither imported result is
+a theorem that the unrestricted physical base--seed parent occupies its
+completion.
+
+\begin{corollary}[Conditional three-level series closure]
+Assume the common-source occupation and once-counted terminal premises proved
+in this paper and, independently, the occupied class-minimal P3 realization of
+Technical Paper VII-B. Then the declared series completion is closed at three
+separate levels: common source, algebra/representation and terminal response.
+No blockwise gain is introduced by composing the two packets.
+\end{corollary}
 \begin{proof}
-For any nonzero constants $a_G,a_F,a_M,a_q$, independently rescale the four
-sector functionals and compensate by redefining their terminal couplings so
-that the displayed equations are unchanged. The terminal solution set is the
-same while the source ownership graph and common-unit identification differ.
-Therefore standard-limit agreement cannot be inverted into common provenance.
+The present paper supplies the common source and terminal levels. Technical
+Paper VII-B supplies the algebra/representation level using the same declared
+unit and typed source ledger. Composition therefore adds no new normalization.
+The result remains conditional on both papers' physical-realization premises.
 \end{proof}
 
-This no-go fixes the empirical interpretation: terminal data may test a
-source-frozen forward ledger, but may not choose its source partition,
-susceptibilities or unit map.
+\section{Decision ledger}
 
-\begin{proposition}[Same-reduct selection no-go]
-\label{prop:samereduct}
-The currently frozen stationary body, common action line, observer quotient
-and terminal type signatures do not entail physical occupation of the full
-effective-source packet of Theorem~\ref{thm:effectivesource}.
-\end{proposition}
-\begin{proof}
-Hold fixed the body $y_*$, its Hessian, common units, causal orientation and
-observer quotient.  Completion $C_0$ assigns zero occupation to one admissible
-post-body record/field edge.  Completion $C_1$ assigns a nonzero positive
-occupation to that same typed edge and includes its contribution in
-$\Gamma_{\rm PC}$.  Both have the same frozen upstream reduct and satisfy its
-positivity and typing conditions, but only $C_1$ realizes the corresponding
-probability, stress and current derivatives in
-Eqs.~\eqref{eq:sourceowners1}--\eqref{eq:sourceowners2}.  Hence the upstream
-reduct does not select the full packet.  Additional source-owned occupation
-or an empirically discriminating source-frozen prediction is required.
-\end{proof}
-
-This finite counterpair is the stopping result for the origin question at the
-present source level.  It forbids both a Nature-level promotion of
-Theorem~\ref{thm:effectivesource} and another same-level search for a hidden
-normalization.  It does not weaken the conditional forward construction.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.92\textwidth]{figures/fig_joint_ledger.pdf}
-\caption{Ordered common-source construction. The body is stabilized before the
-post-body functional is solved; observer restriction is terminal.}
-\end{figure}
-
-\section{Quantum backreaction and the quantum-gravity boundary}
-
-The quantum term in Eq.~\eqref{eq:einstein} is a renormalized expectation
-value on a classical body-derived metric, in the standard semiclassical sense
-\citep{BirrellDavies1982,Wald1977}. Local covariance and admissible
-renormalization follow the usual curved-spacetime QFT framework
-\citep{HollandsWald2001,BrunettiFredenhagenVerch2003}. The metric can also be
-driven by a stress-noise second cumulant in a stochastic extension, but this
-does not quantize geometry.
-
-Paper VII therefore establishes a conditional quantum--gravity
-\emph{interface}, not quantum gravity. A path integral or operator algebra for
-the metric, gravitational gauge fixing, a physical inner product and a
-nonperturbative ultraviolet completion remain absent.
-
-\section{Finite decision ledger}
-
-\begin{longtable}{@{}p{0.36\textwidth}p{0.39\textwidth}p{0.18\textwidth}@{}}
+\begin{center}\small
+\begin{tabularx}{0.96\linewidth}{@{}p{0.42\linewidth}p{0.20\linewidth}X@{}}
 \toprule
-Question & Verdict & Status\\
+Statement & Status & Boundary\\
 \midrule
-One simultaneous body/post-body Hessian supplies conditioning and freeze &
-Impossible unless the cross derivative vanishes & Exact no-go\\
-One ordered ledger supplies both & Yes, Eq.~\eqref{eq:triangular} & Conditional theorem\\
-One post-body effective functional generates probability, stress, current
-and clock response & Yes, Eqs.~\eqref{eq:ineffective}--\eqref{eq:sourceowners2}
-& Conditional theorem\\
-Green response is an additional action contribution & No; it is an inverse
-Hessian & Exact bookkeeping result\\
-Finite local counterterms may be included in two columns & No; relocation is
-allowed, duplication is not & Exact bookkeeping result\\
-Classical and quantum occupation may overlap silently & No; stress doubles & Exact no-go\\
-Einstein, Maxwell and Ward equations share one post-body variation & Yes under the declared packet & Conditional theorem\\
-Newton/Maxwell limits follow & Yes on the standard weak leaf & Conditional recovery\\
-Standard-limit agreement proves Tau provenance & No & Exact no-go\\
-Geometry is quantized & Not derived & Open\\
-Hamilton, momentum and Gauss constraints follow & Yes, on the selected
-standard leaf & Conditional recovery\\
-Non-Abelian gauge and Standard Model spectrum follow & Not derived & Open\\
-Physical base--seed source selects $\mathfrak L_7$ & Not entailed by the
-current reduct, Proposition~\ref{prop:samereduct} & Exact current-reduct no-go\\
+One once-counted functional generates effect, metric, gauge and clock-source
+responses & proved conditionally & body and source packet are frozen first\\
+Einstein--Maxwell--matter equations and Ward/Bianchi identities & recovered
+inside the standard leaf & action shapes and anomaly freedom are premises\\
+Classical and quantum stress are not double counted & proved by ownership
+ledger & depends on declared renormalization bookkeeping\\
+ROOT and TT arise from one two-mode preparation & proved in the declared sector
+& ROOT is a one-particle reduced state, not full tomography\\
+ROOT closes all remaining P1 source directions & not established & exact
+mixed-Gram/source-rank obstruction remains\\
+Standard-limit agreement proves common Tau provenance & disproved & explicit
+same-reduct countermodels\\
+Unrestricted parent realizes and occupies the full joint packet & open & not
+inferable from finite terminal agreement\\
+Quantized geometry or full Standard Model & not derived & outside Paper VII-A\\
 \bottomrule
-\end{longtable}
+\end{tabularx}
+\end{center}
+
+\section{Occupied-body input inherited from parent realization}
+
+The joint terminal ledger is evaluated only after occupied body support is
+frozen. Upstream finite-local analysis shows that every positive
+seed-unloaded split sector has zero response, whereas every stable loaded or
+cross-coupled direction belongs to generated support. Consequently no inert
+finite-local extension supplies an additional terminal gain or stress term
+here. This does not derive the gravity--matter--gauge packet from the
+unrestricted base--seed law and does not establish ambient exhaustivity.
 
 \section{Conclusion}
 
-Paper VII closes a specific assembly problem. The inherited primitive
-terminals can be placed in one ordered, once-counted effective functional without
-rebuilding the morphology from downstream loads. Diffeomorphism and Abelian
-gauge invariance then make gravity, current and stress conservation one
-consistent variational packet, while the disjoint occupation rule prevents a
-classical/quantum duplicate source. The Newtonian and Maxwell limits are
-recovered from that same packet.
+Paper VII-A establishes a conditional common-source architecture for gravity,
+matter, Abelian gauge response, formal clock response and quantum
+backreaction, together with the exact bookkeeping and source-rank conditions
+needed to avoid double counting. Its strongest positive bridge is the ROOT--TT
+same-preparation theorem; its strongest negative result is that standard-limit
+agreement and finite terminal closure do not identify common parent provenance.
 
-The construction remains conditional, but its remaining source status is no
-longer an unspecified proof gap.  An explicit same-reduct counterpair proves
-that present Tau source laws do not entail occupation of the complete ledger.
-Progress therefore requires a richer independently motivated source law or a
-source-frozen cross-terminal prediction.  Terminal fitting cannot supply the
-missing selection.  Absolute constants, quantized geometry, non-Abelian
-structure and the particle spectrum remain outside the present result.
+The original monolithic Paper VII has therefore been separated without
+discarding information. The P3 algebra and law-to-packet proof now belongs to
+VII-B, and the scalar-15/RG branch to VII-C. The decisive remaining result is
+still either a deeper physical base--seed derivation of the jointly occupied
+source packet or a source-frozen, gain-free cross-terminal prediction not
+implied by standard physics.
 
+\appendix
+\input{dependency_certificate_body}
+\end{description}
+
+\subsection*{Provenance boundary}
+The eight D-items above are fully stated premises. A reader may verify the
+conditional mathematics without consulting another Tau manuscript. Their
+provenance does not promote them into unrestricted physical parent laws.
+
+\begingroup\small
 \bibliographystyle{unsrtnat}
 \bibliography{refs}
+\endgroup
 \end{document}
