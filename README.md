@@ -27,12 +27,21 @@ the unrestricted physical base--seed parent occupies the required packet.
 ## Companion papers created by the split
 
 - **Technical Paper VII-B:** rank-seven support--port reconstruction,
-  Tau-local composition, class-minimal realization and public-data controls.
+  Tau-local composition, pointed-exterior pair/top closure and
+  enriched-class occupation, class-minimal realization and public-data
+  controls.
 - **Technical Paper VII-C:** scalar-15/type-II source preimage, occupation,
   common scale and renormalization boundary.
 
 The exact pre-split monolith is retained under `archive/`; no scientific
 material was discarded.
+
+## Observer Co-Descent
+
+The joint terminals act on an already occupied operational observer packet:
+body-side carrier, regular local rank-four descent, stable observer--source
+quantizer and nonzero record/effect. Observer and accessible 4D world are
+co-readouts. This assembly does not create either through a separate channel.
 
 ## Reproduction
 
