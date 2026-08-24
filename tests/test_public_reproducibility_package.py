@@ -26,6 +26,7 @@ def test_scope_and_claim_boundary():
     main = (ROOT / "paperVII_submission_source/main.tex").read_text()
     body = (ROOT / "paperVII_submission_source/joint_terminal_main.tex").read_text()
     text = main + "\n" + body
+    normalized = " ".join(text.split())
     for marker in [
         "Foundation Paper VII-A",
         "Inputs from earlier papers",
@@ -35,9 +36,12 @@ def test_scope_and_claim_boundary():
         "Exact source-rank criterion",
         "De-duplicated P1--ROOT rank",
         "Technical-paper handoffs",
+        "joint-projective-body-connector",
         "does not quantize geometry",
     ]:
         assert marker in text
+    assert "common M4 metrological quotient" in normalized
+    assert "do not construct a full projective/body measure connector" in normalized
     assert "Support--port reconstruction and class-minimal enriched-law realization" not in body
     assert "Type does not imply occupation" not in body
 
