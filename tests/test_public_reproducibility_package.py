@@ -38,10 +38,13 @@ def test_scope_and_claim_boundary():
         "Technical-paper handoffs",
         "joint-projective-body-connector",
         "does not quantize geometry",
+        "Charged Hodge state and the common-cone boundary",
     ]:
         assert marker in text
     assert "common M4 metrological quotient" in normalized
     assert "do not construct a full projective/body measure connector" in normalized
+    assert "may not add a separate spin-root selector or cone-matching gain" in normalized
+    assert "does not assume that the physical base is homogeneous" in normalized
     assert "Support--port reconstruction and class-minimal enriched-law realization" not in body
     assert "Type does not imply occupation" not in body
 

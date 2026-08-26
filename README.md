@@ -13,6 +13,16 @@ relative gluing and faithful occupation. None is introduced here as a
 terminal fit parameter, and terminal agreement cannot select the upstream
 joint datum.
 
+## Unified Terminal Product
+
+VII-A now assembles the declared gravity, time, radiation, matter, quantum and
+Abelian-gauge roles as a typed product of descendants of one immediate
+descriptor \(\Xi_{OS}\). Unlike terminal codomains are not numerically added.
+The stacked terminal Jacobian reconstructs the full local ancestor quotient
+only when its kernel equals \(\ker D\Xi_{OS}\). Strict inclusion means
+information loss; a terminal that responds inside that kernel is a genuine
+common-ancestor bypass. Neither case may be repaired with a fitted gain.
+
 ## Results owned here
 
 The terminal ledger inherits finite-local occupied-support completeness from
@@ -35,6 +45,62 @@ premise.
 The paper does **not** derive the Einstein--Hilbert or Maxwell action from the
 narrow Tau reduct, quantize geometry, derive the Standard Model, or prove that
 the unrestricted physical base--seed parent occupies the required packet.
+
+The inherited seed-fixed Hodge-generated class now also fixes the charged
+geometric state when its source Hodge operator is Clifford-natural: it factors
+as `I4/4 x rho_internal`. The joint terminal assembly therefore uses one
+root-free photon/observer cone and introduces no cone-matching gain. This is a
+class-relative theorem, not a proof that the unrestricted physical parent or
+the actual universe occupies that class.
+
+The joint-access theorem now separates observer-dependent terminal mixing
+from unrestricted quantum--gravity identity. Equal kernels of the complete
+observer maps give one common accessible parent quotient and a unique
+transport between realized images; unequal kernels split into common, union
+and observer-private dimensions. Cross-terminal mixing is invariant only on
+realized pure terminal sectors. A contextual quantum fragment cannot be fully
+process-equivalent to a gravity fragment that remains classical and
+noncontextual under the same frozen comparator assumptions. The finite
+rank-two swap is a mathematical witness, not evidence that Nature realizes
+the exchange.
+
+The clock component determines the remaining joint terminals only under the
+additional equal-fiber condition. In particular, a scalar rank-one clock
+cannot determine the higher-rank assembled packet. The common ordered carrier
+is richer than its clock projection and should not be renamed ``time'' to make
+terminal determinacy true by definition.
+
+The access maps are now also derived conditionally from one post-body
+stationary packet as `A_i=L_i H_i^-1 C_i`. Equal access is an exact preimage
+condition and reduces to equality of the mixed-Hessian kernels only for exits
+injective on the solved response. A common relation Hessian alone does not
+force this equality; an exact same-source countermodel is retained. A
+covariant observer orbit is sufficient to source the image transport, but
+physical orbit occupation and off-diagonal terminal mixing remain open.
+
+Source covariance now further restricts mixing to common irreducible
+representation types. Inequivalent scalar, vector and spin-two sectors cannot
+mix without an added symmetry-breaking source. The existing ROOT coherence
+and TT stress share the same oriented spin-two screen type and therefore pass
+this necessary eligibility gate, but their common-preparation identity is not
+an invertible quantum--gravity duality.
+
+The manuscript now also separates coupling from intrinsic hybridity. Any
+strictly positive two-sector quadratic packet can be Schur-diagonalized by an
+unrestricted full variable change. Hybridity is meaningful only relative to a
+source-frozen type-preserving transformation class. Under metric-preserving
+terminal frames, the singular values of `A^-1/2 C B^-1/2` give a normalized
+coupling invariant below one. ROOT--TT has no physically occupied joint
+Hessian or operational nonfactorization certificate yet.
+
+The exact ROOT--TT map is now audited more sharply.  Its deterministic form
+`t=Kq` has no stacked-rank increment and zero TT-given-ROOT Schur residual;
+its supported canonical correlations are unity.  It is therefore one shared
+preparation reported twice, not a strict two-sector hybrid packet.  Adding an
+independent TT residual makes the covariance positive but introduces an
+underived, classically reproducible source.  The remaining physical target is
+the connected mixed derivative of one frozen generating functional, followed
+by quotient-survival and operational-nonfactorization tests.
 
 ## Companion papers created by the split
 
@@ -63,6 +129,26 @@ seed, and a stable selected nonneutral response defines the body. Terminal
 assembly cannot remove the no-zero-source refactorization freedom or infer
 physical seed occupation from standard-limit agreement.
 
+Under the additional homogeneous equivariant unique-response premises, the
+inherited localization is exact: `Q m_* = K_B^{-1} Q J_U(s)`. The transverse
+occupied body is then seed-induced and the base supplies susceptibility. This
+paper does not derive those premises, and its terminal agreement cannot rule
+out inhomogeneous-base, mode-mixing or spontaneous-breaking alternatives.
+
+Accordingly, the physical homogeneity class of both the seed and the base
+field remains unresolved. The homogeneous-base/structured-seed allocation is
+one explicit conditional branch, not a hidden ontology claim. Mixed
+base--seed origin, an intrinsically inhomogeneous base and spontaneous
+symmetry breaking remain live alternatives until a source-side law or an
+independently frozen discriminator separates them.
+
+For a 4D terminal contrast the inherited body term depends jointly on the
+seed forcing and base susceptibility, while a source-derived observer/readout
+law may add a distinct observer-relative contrast. Only the seed is the
+transverse forcing in the strict homogeneous-base branch; the base shapes the
+response. VII-A does not infer any of these shares backward from terminal
+agreement.
+
 ## Temporal/energy boundary
 
 EOCC actuality belongs upstream to the optional enriched temporal completion.
@@ -84,6 +170,26 @@ or predict a decimal SI unit. The common M4 length--time--action frame is
 inherited from Paper V only up to its positive metrological orbit; one measured
 dimension-bearing anchor selects an SI representative. This does not fix the
 dimensionless Abelian or matter normalization assembled here.
+
+## Effect--stress gluing boundary
+
+The joint functional conditionally fixes a gain-free effect--stress overlap
+after its typed source directions are frozen. Phase-equivariant observer
+access makes exact compression and spectral effects complex-linear while the
+same functional supplies coframe stress. Current Tau does not prove physical
+occupation of the required phase-closed EBOA orbit or a universal mixing
+constant.
+
+## Source-Frozen Full-4D Fixed Score
+
+Paper VII-A owns the joint compiler imported by the terminal papers. With one
+frozen parent Hessian, visible/unresolved reduction gives
+`E_K = (K_HH - K_std) - C K_VV^-1 C^dagger`; one common coframe push gives
+`E_g`, and all terminal predictions are stacked from that same tensor. Exact
+linear duplicates are quotiented, genuine overlap remains in the full
+covariance, and the fixed score is `S_G4D = 2 Re<r,m> - ||m||^2` after the
+declared whitening/projection. The theorem fixes a scoring compiler, not a
+nonzero physical packet or a Nature score.
 
 ## Reproduction
 

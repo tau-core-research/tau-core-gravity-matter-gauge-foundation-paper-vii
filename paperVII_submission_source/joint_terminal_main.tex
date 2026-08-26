@@ -102,6 +102,49 @@ field redefinitions, improvement terms or alternative ultraviolet
 completions.
 \end{proof}
 
+Define the immediate shared descriptor
+\(\Xi_{OS}:=A_O\Xi_*\) on the occupied source domain.  The complete declared
+terminal atlas is therefore the typed product
+\begin{equation}
+ \mathfrak R_{OS}
+ =
+ \left\langle Q_{OS}^{(a)}\circ R_a
+ \right\rangle_{a\in\mathcal P}
+ \circ\Xi_{OS}.
+ \label{eq:paper-vii-unified-terminal-atlas}
+\end{equation}
+This is a product of unlike codomains, not a sum of observables with
+incompatible units.  It includes pure roles and any hybrid map that jointly
+retains two or more role legs before the final stable quantizer.
+
+The Paper-I common-ancestor theorem makes the assembly falsifiable.  A
+candidate terminal \(R_{\rm new}\) belongs to this atlas exactly when it is
+constant on \(\Xi_{OS}\)-fibres; locally on a regular connected-fibre branch,
+\begin{equation}
+ \ker D\Xi_{OS}\subseteq\ker DR_{\rm new}.
+ \label{eq:paper-vii-ancestor-kernel}
+\end{equation}
+The declared stack recovers the whole local ancestor quotient exactly when
+\begin{equation}
+ \ker D\Xi_{OS}
+ =
+ \ker
+ \begin{bmatrix}
+  D(Q^{(T)}R_T)\\
+  D(Q^{(G)}R_G)\\
+  D(Q^{(R)}R_R)\\
+  D(Q^{(M)}R_M)\\
+  D(Q^{(Q)}R_Q)\\
+  D(Q^{(A)}R_A)
+ \end{bmatrix}.
+ \label{eq:paper-vii-ancestor-completeness}
+\end{equation}
+Strict inclusion means that the terminals share the ancestor but do not
+reconstruct it; violation of Eq.~\eqref{eq:paper-vii-ancestor-kernel} is an
+actual bypass.  Neither case may be repaired by fitting a terminal gain.
+Physical no-bypass and completion of the terminal family remain upstream
+source-occupation obligations.
+
 Let $\mathfrak A_{\rm src}$ be the source-owned operation algebra and
 $\Omega_s$ the occupied source vector, and define
 $V_s:=\operatorname{span}(\mathfrak A_{\rm src}\Omega_s)$.
@@ -657,6 +700,284 @@ Paper VII therefore establishes a conditional quantum--gravity
 \emph{interface}, not quantum gravity. A path integral or operator algebra for
 the metric, gravitational gauge fixing, a physical inner product and a
 nonperturbative ultraviolet completion remain absent.
+
+\subsection{Observer-dependent terminal mixing and its exact boundary}
+
+The common parent descriptor permits a sharper statement than either terminal
+identity or terminal independence. Let $X$ be a fixed source-owned parent
+tangent and let
+\begin{equation}
+ A_i:=\begin{pmatrix}Q_i\\G_i\end{pmatrix}:X\longrightarrow
+ Y_{Q,i}\oplus Y_{G,i}
+ \label{eq:jointobserveraccess}
+\end{equation}
+be the complete linearized quantum--gravity access of observer $O_i$, after
+its stable quantizer, null quotient and calibration have been included.
+
+\begin{proposition}[Joint-access mixing]
+\label{prop:jointaccessmixing}
+Two observers resolve the same parent quotient if and only if
+\begin{equation}
+ \ker A_1=\ker A_2.
+ \label{eq:equalaccesskernels}
+\end{equation}
+In that case there is a unique isomorphism on the realized images,
+$U_{21}:A_1(X)\to A_2(X)$, such that
+\begin{equation}
+ A_2=U_{21}A_1.
+ \label{eq:accessfactorization}
+\end{equation}
+For any three equal-access observers these image transports satisfy
+$U_{ki}=U_{kj}U_{ji}$, $U_{ii}=I$ and $U_{ij}=U_{ji}^{-1}$.
+\end{proposition}
+
+\begin{proof}
+If Eq.~\eqref{eq:accessfactorization} holds with $U_{21}$ invertible, the two
+kernels are equal. Conversely, define $U_{21}(A_1x):=A_2x$. Equality of the
+kernels makes this independent of the representative $x$, and the same
+construction with the indices exchanged gives its inverse. Uniqueness on
+$A_1(X)$ is immediate. The groupoid identities follow by uniqueness of the
+factorizations of $A_k$ through $A_i$.
+\end{proof}
+
+This permits observer-dependent terminal assignment without creating new
+parent information. On a realized pure quantum sector
+$E_{Q,1}:=A_1(X)\cap(Y_{Q,1}\oplus0)$, the intrinsic quantum-to-gravity
+component is $\pi_{G,2}U_{21}|_{E_{Q,1}}$. An arbitrary extension of $U_{21}$
+to the ambient direct sum is not unique when $A_1(X)$ is a proper subspace, so
+its displayed off-diagonal matrix entries are not physical invariants. The
+rank-two pure-swap witness
+\begin{equation}
+ Q_1=(1\;0),\quad G_1=(0\;1),\qquad
+ Q_2=(0\;1),\quad G_2=(1\;0)
+ \label{eq:pureswapwitness}
+\end{equation}
+proves mathematical nonemptiness only.
+
+For unequal full kernels $K_i:=\ker A_i$, the maximal common linear quotient
+and the combined quotient are respectively $X/(K_i+K_j)$ and
+$X/(K_i\cap K_j)$. Their dimensions are
+\begin{align}
+ d_{\rm shared}^{ij}
+ &=\operatorname{rank} A_i+\operatorname{rank} A_j
+   -\operatorname{rank}\!\begin{pmatrix}A_i\\A_j\end{pmatrix},
+ \label{eq:shareddimension}\\
+ d_{\rm union}^{ij}
+ &=\operatorname{rank}\!\begin{pmatrix}A_i\\A_j\end{pmatrix}.
+ \label{eq:uniondimension}
+\end{align}
+These counts are invariant under invertible observer recalibration and must
+be evaluated before named terminals are counted as independent.
+
+Information equivalence is not physical sector duality. If a full role
+exchange is represented by an injective multiplicative intertwiner $\Phi$,
+then $\Phi([B,C])=[\Phi(B),\Phi(C)]$. Consequently a genuinely
+noncommutative quantum operational algebra cannot be fully equivalent in this
+sense to a commutative classical-gravity algebra. Morita equivalence alone is
+too weak because it need not preserve element commutators or operational
+probabilities. More generally, a full and faithful process equivalence that
+preserves every closed-circuit probability would pull any classical
+noncontextual simplex model of the gravity fragment back to the quantum
+fragment. It therefore cannot connect a certified contextual quantum packet
+to a gravity packet that remains classical under the same independently
+frozen causal, dimension and memory assumptions.
+
+Raw order dependence is not the required witness: classical transformations,
+nonlinear backreaction, apparatus memory and unequal preparations can also
+make $A\circ B$ differ from $B\circ A$. A finite physical promotion requires,
+in order, (i) common-parent kernel reconstruction, (ii) independent
+preparation/transformation/measurement equivalences, (iii) rejection of a
+bounded commutative comparator by contextuality, incompatibility or equivalent
+tomography, and (iv) one source-frozen map transporting both information and
+composition. An unrestricted classical hidden-state automaton can encode any
+finite behavior table, so the comparator bounds are indispensable.
+
+The result generalizes to any typed terminal family
+$A_i=\bigoplus_{\alpha}T_i^\alpha$. Equal full kernels give the same image
+groupoid; pure $\alpha\to\beta$ exchange is tested on the carrier where all
+competing terminal blocks vanish. Globally, Jacobian kernels must be replaced
+by equality of the stable quantized fibers. This establishes a conditional
+architecture in which the joint accessible parent quotient can be
+observer-invariant while its terminal decomposition is observer-dependent.
+It does not prove that Nature realizes nonzero cross-terminal mixing, that the
+metric is quantized, or that quantum and gravity are ontologically identical.
+
+The time block has no privileged information status inside this theorem. If
+$T_O$ is the clock component of the complete stack $A_O$, every other
+terminal factors through it exactly when $\ker T_O=\ker A_O$ locally, or when
+their stable fibers coincide globally. A scalar rank-one clock therefore
+cannot determine this paper's higher-rank joint terminal packet. The richer
+ordered distinguishability carrier may constrain every terminal, but it is
+upstream of and strictly differently typed from the clock projection.
+
+\subsection{Post-body source origin of the access maps}
+
+The preceding access maps need not be inserted independently. After body
+stabilization, let $x\in X$ perturb the frozen parent descriptor and let
+$z_i\in Z_i$ be the observer--source response. The positive post-body
+quadratic germ
+\begin{equation}
+ \Phi_i^{(2)}(z_i;x)
+ =\frac12\langle z_i,H_i z_i\rangle-\langle z_i,C_i x\rangle,
+ \qquad H_i>0,
+ \label{eq:accesssourcegerm}
+\end{equation}
+has stationary solution $z_i=H_i^{-1}C_i x$. If $L_i$ is the de-duplicated
+resolved terminal exit, then
+\begin{equation}
+ \boxed{A_i=L_iH_i^{-1}C_i.}
+ \label{eq:sourceaccessmap}
+\end{equation}
+Here $C_i$ is the parent/access mixed Hessian of the one post-body source law;
+Eq.~\eqref{eq:sourceaccessmap} introduces no separate terminal capacity gain
+and does not place the frozen body derivative back into a simultaneous solve.
+
+The exact access fiber is
+\begin{equation}
+ \ker A_i=C_i^{-1}\!\left(H_i\ker L_i\right).
+ \label{eq:sourceaccesskernel}
+\end{equation}
+Thus equal observer access requires equality of these preimages. If $L_i$ is
+injective on the stationary response image, this reduces to
+$\ker C_i=\ker C_j$; observer stiffness changes sensitivity but not the
+accessible parent directions. For a lossy exit the full
+Eq.~\eqref{eq:sourceaccesskernel} is required, and changing $H_i$ can rotate a
+response into or out of the terminal null.
+
+One common positive relation Hessian does not force equal access. Even when
+\begin{equation}
+ H_i=J_i^*K_RJ_i,
+ \qquad C_i=J_i^*K_RJ_X,
+ \label{eq:commonrelationhessian}
+\end{equation}
+different observer embeddings $J_i$ can select different coordinate
+subspaces and hence different kernels. This gives an exact same-source
+countermodel to the claim that common provenance itself implies terminal
+mixing.
+
+A sufficient source-selected route is a covariant observer orbit. If
+\begin{equation}
+ C_j=V_{ji}^{-*}C_i,\qquad
+ H_j=V_{ji}^{-*}H_iV_{ji}^{-1},\qquad
+ L_jV_{ji}=W_{ji}L_i,
+ \label{eq:covariantaccessorbit}
+\end{equation}
+with invertible maps on the realized images, substitution into
+Eq.~\eqref{eq:sourceaccessmap} gives
+\begin{equation}
+ A_j=W_{ji}A_i.
+ \label{eq:sourceownedtransport}
+\end{equation}
+The observer transport is then derived from the source packet rather than
+chosen after terminal inspection. Equation~\eqref{eq:covariantaccessorbit} is
+a sufficient enriched-source condition, not a theorem that physical observers
+occupy one such orbit. Off-diagonal physical terminal content of $W_{ji}$
+remains unselected.
+
+\subsection{Representation-overlap selection rule}
+
+The covariant orbit law also restricts which off-diagonal blocks can exist.
+If a physical symmetry group $\mathcal G$ acts on realized terminal sectors,
+source covariance requires every cross-terminal component to lie in
+\begin{equation}
+ W_{ji}^{\beta\leftarrow\alpha}
+ \in\operatorname{Hom}_{\mathcal G}(E_i^\alpha,E_j^\beta).
+ \label{eq:terminalintertwiner}
+\end{equation}
+Schur's lemma therefore sets the component to zero between inequivalent
+irreducible sectors. For compact $\mathcal G$, after complexification when
+needed, write
+\begin{equation}
+ E_i^\alpha\simeq\bigoplus_\lambda
+ M_{i,\alpha,\lambda}\otimes V_\lambda.
+\end{equation}
+Every covariant cross map is blockwise
+$w_{ji,\lambda}^{\beta\leftarrow\alpha}\otimes I_{V_\lambda}$ and obeys
+\begin{equation}
+ \operatorname{rank} W_{ji}^{\beta\leftarrow\alpha}
+ \leq\sum_\lambda
+ \min\{\dim M_{i,\alpha,\lambda},\dim M_{j,\beta,\lambda}\}
+ \dim V_\lambda.
+ \label{eq:representationrankbound}
+\end{equation}
+Representation overlap is necessary, not sufficient: source normalization,
+orientation, gauge descent and operational-law transport remain required.
+
+This rule makes the ROOT--TT packet below the first current eligible
+quantum--gravity pair. Its two-mode coherence and TT stress carry the same
+oriented spin-two screen type. A scalar probability or spin-one current cannot
+mix covariantly into that pure spin-two terminal without an additional
+symmetry-breaking carrier. The ROOT--TT identity still proves only
+common-preparation transport into semiclassical stress, not invertible
+quantum--gravity role duality.
+
+\subsection{Coupling is weaker than an intrinsically hybrid terminal}
+
+For a positive joint quadratic packet
+\begin{equation}
+ K_{QG}=\begin{pmatrix}A&C\\C^*&B\end{pmatrix},
+ \qquad A>0,\quad B>0,
+ \label{eq:hybridpacket}
+\end{equation}
+$C\neq0$ proves coupling in the declared quantum/gravity splitting. It does
+not prove absolute hybridity: an unrestricted triangular congruence produces
+$A\oplus(B-C^*A^{-1}C)$. A meaningful hybrid claim must therefore freeze the
+admissible transformations from terminal type, gauge, units, quantizer and
+operational composition before inspecting $C$.
+
+Under invertible block-preserving transformations,
+$C\mapsto S_Q^*CS_G$ and $\operatorname{rank} C$ is invariant. Under independent
+metric-preserving terminal frames, the singular values of
+\begin{equation}
+ M=A^{-1/2}CB^{-1/2}
+ \label{eq:hybridspectrum}
+\end{equation}
+are invariant and satisfy $0\le\sigma_k(M)<1$ by positivity. Their nonzero
+ordered set is a dimensionless typed quadratic-hybrid spectrum. It measures
+normalized coupling, not physical quantum--gravity unification.
+
+Physical hybridity additionally requires one occupied once-counted mixed
+source block, survival through gauge/null/quantizer descent, resolved process
+nonfactorization against a frozen typed comparator and preservation of both
+operational signatures. The current ROOT--TT map passes representation
+eligibility and common preparation but does not yet supply this occupied joint
+Hessian or the operational nonfactorization theorem. It is therefore a
+coupled candidate, not an established hybrid terminal.
+
+The exact deterministic identity is in fact more restrictive.  Write its
+retained linear form as $t=Kq$ and let $Sigma_Q>0$ be the ROOT covariance or
+static susceptibility on its support.  Then
+\begin{equation}
+ \Gamma_{QT}=
+ \begin{pmatrix}\Sigma_Q&\Sigma_QK^*\\
+ K\Sigma_Q&K\Sigma_QK^*\end{pmatrix}
+ =\begin{pmatrix}I\\K\end{pmatrix}\Sigma_Q
+ \begin{pmatrix}I&K^*\end{pmatrix}.
+ \label{eq:rootttgraphcovariance}
+\end{equation}
+Consequently $\operatorname{rank}\Gamma_{QT}=\operatorname{rank}\Sigma_Q$
+and the TT-given-ROOT Schur residual vanishes.  Every nonzero canonical
+correlation is unity on the supported image.  Thus the presently proved
+ROOT--TT relation is a redundant graph of one shared preparation, lying on
+the semidefinite boundary of the strictly positive family
+in Eq.~\eqref{eq:hybridpacket}; it is not itself a two-sector hybrid proof.
+
+The minimal covariance extension $t=Kq+\eta$ with
+$\langle\eta q^*\rangle=0$ and $N:=\langle\eta\eta^*\rangle>0$ has Schur
+residual exactly $N$ and is strictly positive.  This does not close the
+physical argument: $N$ is a new underived TT source/noise and the same packet
+has a classical Gaussian realization.  A nonarbitrary continuation must
+instead reconstruct the connected mixed susceptibility of one renormalized
+source functional,
+\begin{equation}
+ C_{QT}=\left.
+ \frac{\delta^2 W[h_{TT},\eta_Q]}
+ {\delta h_{TT}\,\delta\eta_Q}\right|_{0},
+ \label{eq:rootttmixedsource}
+\end{equation}
+with contact and subtraction terms frozen, and must then prove quotient
+survival and operational nonfactorization.  Equation~\eqref{eq:rootttidentity}
+alone supplies none of these additional conclusions.
 
 \subsection{Two-mode common-preparation theorem}
 
