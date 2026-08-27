@@ -199,3 +199,11 @@ python3 scripts/reproduce.py
 
 The command regenerates the figures and numerical certificates, builds the
 PDF and arXiv archive, and runs the public tests.
+
+## Unified Selection And Pair-Test Handoff (2026-08-27)
+
+`PD-USS1` conditionally gives the terminal sectors one transport ancestor, but
+does not prove that named outputs are independently typed source directions.
+Technical Paper VII-B owns the product-free P3 bound and the `0/31` public
+census. VII-A's joint assembly, standard limits and fixed scoring compiler are
+unchanged; no Nature score is authorized.
