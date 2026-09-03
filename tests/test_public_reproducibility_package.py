@@ -39,8 +39,15 @@ def test_scope_and_claim_boundary():
         "joint-projective-body-connector",
         "does not quantize geometry",
         "Charged Hodge state and the common-cone boundary",
+        "Typed descriptor and ontology-migration boundary",
+        "D_{OS}^{\\rm op}=Q_{OS,\\delta}(\\Xi_{OS}^{\\rm cont})",
+        "L=U\\circ\\Xi_{OS}^{\\rm cont}",
+        "Generalized internal-measurement handoff",
+        "eq:viia-generalized-backaction",
+        "eq:viia-backaction-stack-rank",
     ]:
         assert marker in text
+    assert "same-context, clamped-target control" in normalized
     assert "common M4 metrological quotient" in normalized
     assert "do not construct a full projective/body measure connector" in normalized
     assert "may not add a separate spin-root selector or cone-matching gain" in normalized

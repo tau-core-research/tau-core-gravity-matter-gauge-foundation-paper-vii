@@ -1,5 +1,12 @@
 # Tau Core Foundation Paper VII-A
 
+**Morphology convention:** the frozen body consumed here is the complete
+stabilized morphological response configuration selected from a base carrier
+and its base-readable seed/load pattern. The terminal assembly does not derive
+literal formation or observer time from that atemporal selection.
+MRC-DEF2 treats parent-side base/seed objects as typed pregeometric relational
+candidates; ordinary matter and apparatuses are downstream roles.
+
 **Conditional Assembly of Gravity, Matter, and Abelian Gauge Terminals from One Ordered Tau Descent**
 
 Paper VII-A is the joint-terminal assembly paper. It proves, under an explicit
@@ -17,11 +24,32 @@ joint datum.
 
 VII-A now assembles the declared gravity, time, radiation, matter, quantum and
 Abelian-gauge roles as a typed product of descendants of one immediate
-descriptor \(\Xi_{OS}\). Unlike terminal codomains are not numerically added.
+continuous descriptor \(\Xi_{OS}^{\mathrm{cont}}\).  The operational record is
+instead \(D_{OS}^{\mathrm{op}}=Q_{OS,\delta}(\Xi_{OS}^{\mathrm{cont}})\): the
+stable finite-resolution map is not the differentiable descriptor on which
+the local Hessian and rank arguments act. Unlike terminal codomains are not numerically added.
 The stacked terminal Jacobian reconstructs the full local ancestor quotient
-only when its kernel equals \(\ker D\Xi_{OS}\). Strict inclusion means
+only when its kernel equals \(\ker D\Xi_{OS}^{\mathrm{cont}}\). Strict inclusion means
 information loss; a terminal that responds inside that kernel is a genuine
 common-ancestor bypass. Neither case may be repaired with a fitted gain.
+
+The ontology-migration test is exact. A historical descriptor \(L\) survives
+as a descendant precisely when \(L=U\circ\Xi_{OS}^{\mathrm{cont}}\), equivalently
+\(\ker D\Xi_{OS}^{\mathrm{cont}}\subseteq\ker DL\) on a regular linearized
+patch. Equality of fibres gives descriptor equivalence; equal rank alone does
+not. This transports already sourced time, distance, metric and spectral
+terminal laws, but it does not derive the physical quantizer, calibration,
+galactic \(q_R(R)\), or Nature occupation.
+
+The same common descriptor now carries an exact generalized measurement
+backaction split. With the frozen body held fixed, a supplied regular
+post-body functional gives `D_o x_*=-H_X^-1 C_XO`; each terminal change is a
+direct context term plus a target-mediated term. Hard records use the
+same-context, clamped-target control. Terminal silence can hide response and
+context-only change can occur at zero coupling. The independent multi-terminal
+content is the rank of the stacked mediated-response rows, not the number of
+terminal labels. Physical selection and Nature occupation of `C_XO`, and any
+nonstandard component, remain open.
 
 ## Results owned here
 
