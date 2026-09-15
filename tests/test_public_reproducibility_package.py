@@ -85,3 +85,18 @@ def test_arxiv_archive_is_self_contained():
     assert "dependency_certificate_body.tex" in names
     assert "refs.bib" in names
     assert "appendices/p3_technical_derivations.tex" not in names
+
+
+def test_ectr_common_q_coframe_atlas_is_conditional():
+    text = (ROOT / "paperVII_submission_source/main.tex").read_text()
+    assert "Common Q/coframe ancestry and compatible cosmological atlas" in text
+    assert "eq:viia-ectr-common-source" in text
+    assert "eq:viia-ectr-atlas" in text
+    assert "No Einstein equation, accelerated" in text
+
+
+def test_finite_spectral_hierarchy_is_not_a_mass_derivation():
+    text = (ROOT / "paperVII_submission_source/main.tex").read_text()
+    assert "Finite spectral hierarchy: a non-identified mass bridge" in text
+    assert "not an additional derivation of the observed matter spectrum" in text
+    assert "a measured $G$ or proton mass" in text

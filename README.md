@@ -33,6 +33,25 @@ only when its kernel equals \(\ker D\Xi_{OS}^{\mathrm{cont}}\). Strict inclusion
 information loss; a terminal that responds inside that kernel is a genuine
 common-ancestor bypass. Neither case may be repaired with a fitted gain.
 
+## Finite spectral-hierarchy comparator (2026-09-12)
+
+The corrected [universe-seed evolution working packet](https://github.com/jolcsak/tau-core/tree/43e475215f8fc5bf35610b0f450e582f7de148f3/theory/universe_seed_evolution)
+contains a conditional boundary-mode suppression example. Paper VII-A now
+states explicitly why its dimensionful resolvent residue is not a derived
+proton mass or a selected gravity coupling. A post-body relation-row stiffness
+cannot be identified with the Einstein--Hilbert coefficient without a typed,
+normalized unit bridge. The hypothetical inter-universe reproduction branch
+is outside this paper's one-universe terminal assembly. No Standard Model
+recovery or Nature-occupation status changes.
+
+The theory repository now supplies `experiments/finite_q_hierarchy/` with
+reproduced spectral/profile/residue convergence and a declared positive
+boundary coupling that generates a small scalar mass by exact Feshbach
+reduction. The same-unit comparison with this paper fixes
+`C_EH=6*kappa_row` and `S0/hbar=2*pi`; it rejects combining the older
+direct-row/EH convention with this completion. The numerical witness does
+not select a physical coupling or identify the scalar with the proton.
+
 The ontology-migration test is exact. A historical descriptor \(L\) survives
 as a descendant precisely when \(L=U\circ\Xi_{OS}^{\mathrm{cont}}\), equivalently
 \(\ker D\Xi_{OS}^{\mathrm{cont}}\subseteq\ker DL\) on a regular linearized
@@ -219,6 +238,27 @@ covariance, and the fixed score is `S_G4D = 2 Re<r,m> - ||m||^2` after the
 declared whitening/projection. The theorem fixes a scoring compiler, not a
 nonzero physical packet or a Nature score.
 
+## Common Q/Coframe Source And Cosmological Atlas
+
+The inherited ECTR packet supplies one conditional common operator ancestry
+for two already distinct terminal roles. With
+`A_(0,M)=J_(M,S)^* h_S J_(M,S)` and a normalized post-body
+Legendre--Riesz coevaluation,
+`G=K_src/(2A_*)=k_(c,O)^2 A_(0,M)^-1`. The metric coframe descends from
+`A_(0,M)^-1`, while the Q terminal receives
+`F_Q(a)=(I+a^2G)^-1/2`. Neither terminal constructs the other.
+
+They are conditional co-descendants of one source packet. The metric scale
+may modulate Q/G dominance after the common law and typed exits are fixed;
+observed expansion does not select their source or operational meaning.
+
+On a connected oriented, time-oriented globally hyperbolic leaf, compatible
+comoving frames differ by `SO(3)` spatial overlaps, which preserve the common
+spectrum, determinant and expansion sign. This does not extend to arbitrary
+observers and does not derive Einstein dynamics, acceleration or dark energy.
+The current physical source has not yet selected or occupied the entire
+development--coevaluation--access--atlas packet.
+
 ## Reproduction
 
 ```bash
@@ -235,3 +275,23 @@ does not prove that named outputs are independently typed source directions.
 Technical Paper VII-B owns the product-free P3 bound and the `0/31` public
 census. VII-A's joint assembly, standard limits and fixed scoring compiler are
 unchanged; no Nature score is authorized.
+
+<!-- BEGIN OBSERVER UPDATE 20260914 -->
+## Observer realization update (2026-09-14)
+
+These results do not select a particle spectrum, coupling constant, Higgs vacuum or gravitational terminal. Common source ancestry remains weaker than physical realization of those sectors.
+
+The manuscript distinguishes inherited BRAC contact, conditional coherent-state
+selection and interacting local covariance from physical observer identification,
+preparation and stable resolution. Those physical claims remain open. No
+empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
+<!-- END OBSERVER UPDATE 20260914 -->
+
+<!-- BEGIN LAB UPDATE 20260915 -->
+## Finite lab integration (2026-09-15)
+
+The manuscript imports the scope-specific source, body, observer or terminal
+result from the current lab. Supplied priors, conditional recovery and physical
+selection remain separate. No SI constant, viable universe or Tau-specific
+signal is newly established. See the [source and ownership ledger](data/derived/lab_update_2026_09_15.json).
+<!-- END LAB UPDATE 20260915 -->
