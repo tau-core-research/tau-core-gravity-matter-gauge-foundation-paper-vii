@@ -1,0 +1,148 @@
+{
+  "pid": 47163,
+  "elapsed": 0.023142665973864496,
+  "source_sha256": "c3a76cdc1d1c30f1fecc87cde50a85c3e0d7383256abb9259b7ae2b1c1de4266",
+  "bindings": [
+    {
+      "receipt": "HRU_joint_metric_state_response.json",
+      "receipt_sha256": "59c34b6f9564ae9a4ffe4e7c09e3ef9cb3674bee92e00831d766d0206152d528",
+      "source": "tau_joint_metric_state_response.py",
+      "source_sha256": "93f103ec358647ab14ca52277064dc7461f993d8e81b9190101275cfc0c8f427",
+      "qualified_false_flags": [],
+      "pid": 42484
+    },
+    {
+      "receipt": "HRV_joint_metric_source_jet_guard.json",
+      "receipt_sha256": "e4cd563780723b686db87af62955c6278fd2cb648de0ad0d23d5492605a837a9",
+      "source": "tau_joint_metric_source_jet_guard.py",
+      "source_sha256": "d913ff0ca6b470be9540bf1b01dfc9c0be038977568678e0281d92fb88065c7a",
+      "qualified_false_flags": [],
+      "pid": 42522
+    },
+    {
+      "receipt": "HRW_lapse_retarded_Euler_binding.json",
+      "receipt_sha256": "e93b78ddd1d7cbec3a9dfe4021d1494880ad966a63c554a71d9458972b385ecb",
+      "source": "tau_lapse_retarded_Euler_binding.py",
+      "source_sha256": "fccb19393ac6bc7df2ee930b672d7d3d57b6c32eb3f1c9f40f76391ab42f4c29",
+      "qualified_false_flags": [],
+      "pid": 43395
+    },
+    {
+      "receipt": "HRX_HORIZ_Euler_endpoint_guard.json",
+      "receipt_sha256": "0ea3d5a4b8374ed1607907eb7b9d8337d057747d69bd3b2e74d624e64ab3050f",
+      "source": "tau_HORIZ_Euler_endpoint_guard.py",
+      "source_sha256": "978cb706cc56377b513831a6337d2a3d6d9f9753faabece5b45576160b56a42e",
+      "qualified_false_flags": [],
+      "pid": 43451
+    },
+    {
+      "receipt": "HRY_linearized_lapse_joint_Ward.json",
+      "receipt_sha256": "0752baf67b510ee1abfc30b06b4ab3fef9ba663256897604baf6a91a3cd5dd09",
+      "source": "tau_linearized_lapse_joint_Ward.py",
+      "source_sha256": "31cde165da2e23c54a4213eab0284ab8034f0c5fc725af33c143046faf126c12",
+      "qualified_false_flags": [],
+      "pid": 44082
+    },
+    {
+      "receipt": "HRZ_bosonic_joint_constraint_Hessian.json",
+      "receipt_sha256": "3d971a0ff5e306f60f8bfada75343e80ca70457fc099751641272663da4a593c",
+      "source": "tau_bosonic_joint_constraint_Hessian.py",
+      "source_sha256": "ff6a164448c83ea015fec319941c611166e91ff5938eb5888d9846f9e3068227",
+      "qualified_false_flags": [],
+      "pid": 44806
+    },
+    {
+      "receipt": "HSA_summed_boson_fermion_constraint.json",
+      "receipt_sha256": "1660358a55c66890986700ec7930d8b2ea9ecf696ab898eb7f8a2c3a26b0059a",
+      "source": "tau_summed_boson_fermion_constraint.py",
+      "source_sha256": "be1b9609cdaa2c6b5af433e2ef03ef607ec52207e6a766349ef801896ad6cd5a",
+      "qualified_false_flags": [],
+      "pid": 44872
+    },
+    {
+      "receipt": "HSB_extended_constraint_highest_rank.json",
+      "receipt_sha256": "47b13ca4d70ac4d231910d0efb3667cf59811f631ae0c26116c993e9d7c7c14a",
+      "source": "tau_extended_constraint_highest_rank.py",
+      "source_sha256": "eee98b364e62881def8d19903c4d889f09e8d684b4ccb4a06742c33be896c5b7",
+      "qualified_false_flags": [],
+      "pid": 45481
+    },
+    {
+      "receipt": "HSC_allsource_causal_state_reduction.json",
+      "receipt_sha256": "d8d4b16c7c87a42cb796e3ebb4b5c07aa31690ee8f11d4a5159beddf6efe1c4e",
+      "source": "tau_allsource_causal_state_reduction.py",
+      "source_sha256": "fd26964a1a1aa0c3bf4688414035881de1078c1fad39ff900281aeeaeac4742e",
+      "qualified_false_flags": [],
+      "pid": 45579
+    },
+    {
+      "receipt": "HSD_HORIZ_consistent_initial_jet.json",
+      "receipt_sha256": "67880d8b0e940cf23d4ea6050c243adc353b847e3b3afdd2f02e809d294eb34e",
+      "source": "tau_HORIZ_consistent_initial_jet.py",
+      "source_sha256": "944f785d00b51cc6c2c60ad1165ea602f2ecf83253b40d07fc3ab257cf946314",
+      "qualified_false_flags": [],
+      "pid": 45943
+    },
+    {
+      "receipt": "HSE_initial_jet_constraint_propagation.json",
+      "receipt_sha256": "bc0c16407ed2d0a61b57fab9ea84f282d4f4782adb68f1578cfbaf4622b58c7f",
+      "source": "tau_initial_jet_constraint_propagation.py",
+      "source_sha256": "815379c31d171b3c22e66653058f22077a37cb2343cb08a0770604baa415cbdd",
+      "qualified_false_flags": [],
+      "pid": 46031
+    },
+    {
+      "receipt": "HSF_short_coupled_source_evolution.json",
+      "receipt_sha256": "47a4416e1aad484c80e7ed4d3455f0c7c6a0058b86a81f3fe65688400b332374",
+      "source": "tau_short_coupled_source_evolution.py",
+      "source_sha256": "c6127f68d79346492bb3f0a861fd9bb865b96c1bbeab1970237eb21d65d4a5b6",
+      "qualified_false_flags": [],
+      "pid": 46365
+    },
+    {
+      "receipt": "HSG_short_evolution_independent_guard.json",
+      "receipt_sha256": "997ebe914488f05d3e01ef761daaa1eb43bb4c47a8a2b9ac2b0f39595eaf7e1f",
+      "source": "tau_short_evolution_independent_guard.py",
+      "source_sha256": "a40be00446ecae26217d1411e1878eea697bf426b228ba2a8647ba11206904d9",
+      "qualified_false_flags": [],
+      "pid": 46408
+    },
+    {
+      "receipt": "HSH_evolved_covariant_constraint_Jacobians.json",
+      "receipt_sha256": "90f0ad9228464efacb9c9959bb4b165061a276c02a27673212713aced07e8c65",
+      "source": "tau_evolved_covariant_constraint_Jacobians.py",
+      "source_sha256": "0e5187a17a7462ae7ef6e7bd45d1372d067a3cda733b573d252dbfaf8631e6dd",
+      "qualified_false_flags": [],
+      "pid": 46691
+    },
+    {
+      "receipt": "HSI_evolved_joint_source_covariance.json",
+      "receipt_sha256": "ba9f8a3aafa4304f9b82b7748416acfb64eb5ac7a0161968c02b2c23253fb771",
+      "source": "tau_evolved_joint_source_covariance.py",
+      "source_sha256": "ecf75bd7803cac1176e520c7d0a4d2193462e10f6cfbc949b6a20b60e333224c",
+      "qualified_false_flags": [
+        "means_bind_same_total_Euler"
+      ],
+      "pid": 46813
+    },
+    {
+      "receipt": "HSJ_joint_covariance_mean_binding_guard.json",
+      "receipt_sha256": "d6a5a008ea98d38c8ceee2c69f39d78156fe1025fad194f5e0ecc212cbd85e69",
+      "source": "tau_joint_covariance_mean_binding_guard.py",
+      "source_sha256": "8407c2036e1f1e3c7cec27f53d10a4323b4abe621235c1959f2786c5aa49a531",
+      "qualified_false_flags": [],
+      "pid": 46868
+    }
+  ],
+  "array_file": "HSF_short_coupled_source_evolution_arrays.npz",
+  "array_sha256": "c77ab440d91a3aa1da5c37cca3b87c527232a28f34c4e0c046b4a1773d1680cb",
+  "all_saved_arrays_finite": true,
+  "versions": {
+    "python": "3.10.6 (main, Jun 28 2025, 13:52:19) [Clang 17.0.0 (clang-1700.0.13.5)]",
+    "numpy": "2.2.6",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "scope": "16 receipt/source bindings plus saved trajectory integrity only. No science main rerun; HSI false flag explicitly preserved. HSF backend warnings remain qualified by independent HSG replay."
+}

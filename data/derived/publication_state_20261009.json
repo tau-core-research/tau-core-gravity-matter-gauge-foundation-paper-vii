@@ -4,7 +4,10 @@
     {
       "source": "paperVII_submission_source/main.tex",
       "role": "joint-terminal",
-      "source_sha256": "d01fcfd4730f796308337cf352665029dc654b0605cdf72679a88cd35ac1d2ec"
+      "source_sha256_before_hsl_20261110": "d01fcfd4730f796308337cf352665029dc654b0605cdf72679a88cd35ac1d2ec",
+      "source_sha256": "b31ab32dfcd40ff280957da74f267e1fc25ecbd77a087be131a90812b8bc3eb5",
+      "current_source_update": "2026-11-10 full HRZ-HSL bounded chain import",
+      "source_sha256_before_full_chain_20261110": "b749ed1b98bbad11d02cf5e5dec8cd813ccac08defabf970bf29a134a6545db1"
     }
   ],
   "empirical_scores_changed": false,
