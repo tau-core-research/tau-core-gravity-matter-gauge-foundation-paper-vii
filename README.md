@@ -323,3 +323,11 @@ Foundation VII-A retains the detailed response derivation and compact receipts.
 Negative controls, numerical warning qualifications and physical-selection,
 particle, spatial/renormalized, stability and cosmology gaps remain explicit.
 This is a local manuscript/PDF update, not a publication or new empirical score.
+
+## Foundations blocker audit import (2026-11-12)
+
+The manuscript now imports the `F16--F20` foundations blocker audit results from Technical Companions TD-II and TD-III: `F16` (`A > 0` strict convexity `m_eff^2 = A + 3 lambda m_0^2 > 0` and local `e^{-m_eff b}/(4 pi b)` vs IR-convergent ray-integrated `K_0(m_eff b)/(2 pi)` Yukawa templates), `F18-T1`/`F19` with `OCSR-H1` and `COCA-H1` (parameter-free `S_4`-singlet parent ratios with `m_bg = 0.52320998`, `m_eff = 2.12054781`, 3D nonlinear radial Yukawa BVP, and opposite core clock-shift signs on `OCSR-H1` vs `D1`), and Theorem `F20-T1` (exact `tau`- and `A_tau`-invariance of operational differential clock ratios, with `ZSNT-H1a` vs `ABNT-H1b` for raw norms). Physical SI length/mass calibration (`ell_tau`, `delta_eta <-> GM/c^2`) and blind solar-conjunction ephemeris validation remain open.
+
+## Three-pillar closure and postulate-reduction update (2026-11-14)
+
+Foundation Paper VII-A (`paperVII_submission_source/main.tex`) integrates the covariant 4D unit-timelike director action `COV-DIR (C1--C4)` (finite `K_4` singlet self-force `(1/2) G M m_eff^2` and exact binary momentum conservation via `T_react^{mu nu}`), Theorems `U3` & `F3` (closed-form 4D dilogarithmic Lagrangian `W_COCA(s)` unifying Solar-System `r^2` screening with 60-decade Frullani IR universality and Euclid/LSST weak-lensing turnover), `HOMOG-K4 (H1--H4)` (`O(a^2)` Freudenthal--Kuhn Regge/DEC `Gamma`-convergence, `kappa_dir^bare = 0`, `L^2_loc` Hessian regularity), and `V19` constants (`m_bg = 0.52320998`, `m_eff = 2.12054781`; `NATURE_LEVEL_CLOSURE = false`).
